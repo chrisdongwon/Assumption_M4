@@ -6,13 +6,15 @@ categories: announcement
 katex: True
 ---
 
+Answer the following as a review for your upcoming midterm exam. Make sure to show as much work as possible in order to maximize your points on the exam - any unsupported answers will warrant partial credit.
+
 1. Let $$S$$ be a nonempty set and let $$U = \mathcal{P}(S)$$, the powerset of $$S$$, and let $$A, B \in \mathcal{P}(S)$$. Recall that the powerset of $$S$$ is a set of all subsets of $$S$$, hence $$A$$ and $$B$$ are simply subsets of $$S$$. Using the set-builder notation, suggest a definition for the following operations:
 
     * The complement of $$A$$: $$A^{\prime}$$. 
     * The union of $$A$$ and $$B$$: $$A \cup B$$.
     * The intersection of $$A$$ and $$B$$: $$A \cap B$$.
 
-1. Let $$U = \mathbb{Z}$$, $$A = \{x : 0 \leq x \leq 100 \text{ and } x \in \mathbb{Z}\}$$, $$E = \{x : x \text { is divisible by } 2\}$$, and $$O = \{x : x \text { is not divisible by } 2\}$$.
+1. Let $$U = \mathbb{Z}$$, $$A = \{x \in \mathbb{Z} : 0 \leq x \leq 100\}$$, $$E = \{x \in \mathbb{Z} : x \text { is divisible by } 2\}$$, and $$O = \{x \in \mathbb{Z} : x \text { is not divisible by } 2\}$$.
 
     * Are $$E$$ and $$O$$ disjoint sets? Why or why not?
     * What is $$A \cap E$$?
