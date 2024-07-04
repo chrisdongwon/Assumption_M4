@@ -12,4 +12,15 @@ katex: True
     * The union of $$A$$ and $$B$$: $$A \cup B$$.
     * The intersection of $$A$$ and $$B$$: $$A \cap B$$.
 
-1. Let $$U = \mathbb{Z}$$, A = $$\{x : 0 \leq x \leq 100 \text{ and } x \in \mathbb{Z}\}$$, $$B = \{x : x \text { is divisible by } 2\}$$, and $$B = \{x : x \text { is not divisible by } 2\}$$. 
+1. Let $$U = \mathbb{Z}$$, $$A = \{x : 0 \leq x \leq 100 \text{ and } x \in \mathbb{Z}\}$$, $$E = \{x : x \text { is divisible by } 2\}$$, and $$O = \{x : x \text { is not divisible by } 2\}$$.
+
+    * Are $$E$$ and $$O$$ disjoint sets? Why or why not?
+    * What is $$A \cap E$$?
+    * What is $$A \cup O$$?
+    * What is $$(A \cap E)^{\prime}$$?
+    * What is the cardinality of $$A \cap E$$?
+    * Is $$A \cup O$$ a proper subset of $$A$$? Why or why not?
+    * Classify $$U,A,E,O$$ as either finite or infinite.
+
+1. What is the definition of **set equality**? What is the definition of **seq equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
+
