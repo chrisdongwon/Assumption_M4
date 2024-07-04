@@ -24,3 +24,10 @@ katex: True
 
 1. What is the definition of **set equality**? What is the definition of **seq equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
 
+1. What is the difference between a Venn diagram and an Euler diagram? Compare and contrast.
+
+1. Write the general formula for the cardinality of a union of two sets, i.e. $$n(A \cup B)$$. Hint: inclusion-exclusion principle.
+
+1. True or false? $$ab = GCD(a,b) + LCM(a,b)$$. If false, what is the correct statement?
+
+1. Describe the steps to the Euclidean Algorithm, and find $$GCD(194, 268)$$ using the algorithm. 
