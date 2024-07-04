@@ -22,7 +22,7 @@ katex: True
     * Is $$A \cup O$$ a proper subset of $$A$$? Why or why not?
     * Classify $$U,A,E,O$$ as either finite or infinite.
 
-1. What is the definition of **set equality**? What is the definition of **seq equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
+1. What is the definition of **set equality**? What is the definition of **set equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
 
 1. What is the difference between a Venn diagram and an Euler diagram? Compare and contrast.
 
