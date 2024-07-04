@@ -8,8 +8,8 @@ katex: True
 
 1. Let $$S$$ be a nonempty set and let $$U = \mathcal{P}(S)$$, the powerset of $$S$$, and let $$A, B \in \mathcal{P}(S)$$. Recall that the powerset of $$S$$ is a set of all subsets of $$S$$, hence $$A$$ and $$B$$ are simply subsets of $$S$$. Using the set-builder notation, suggest a definition for the following operations:
 
-* The complement of $$A$$: $$A^{\prime}$$. 
-* The union of $$A$$ and $$B$$: $$A \cup B$$.
-* The intersection of $$A$$ and $$B$$: $$A \cap B$$.
+    * The complement of $$A$$: $$A^{\prime}$$. 
+    * The union of $$A$$ and $$B$$: $$A \cup B$$.
+    * The intersection of $$A$$ and $$B$$: $$A \cap B$$.
 
-2. To be continued...
+1. To be continued...
