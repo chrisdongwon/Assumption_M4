@@ -11,4 +11,4 @@ For the lower-school students, I tend to be more rigid and consistent about clas
 
 It is understandable if mathematics is not your favorite subject and you may struggle to find interest in it, and this might result in you participating in activities that are frowned upon in a classroom setting. However, please remember that I am always at your disposal for academic assistance, so do not be shy and feel free to reach out. Once again, it is imperative that you allow me to proceed with my instruction duties without much hinderance, so please be mindful of your decorum in the classroom. 
 
-Once again, it is a privilege and a great honor to be the instructor of your course, and I hope that adhering to the aforementioned rules will help us maintain a pleasant learning environment. Thank you very much for your cooperation.
+Finally, it is a privilege and a great honor to be the instructor of your course, and I hope that adhering to the aforementioned rules will help us maintain a pleasant learning environment. Thank you very much for your cooperation.
