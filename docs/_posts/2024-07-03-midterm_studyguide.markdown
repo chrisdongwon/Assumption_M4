@@ -12,4 +12,4 @@ katex: True
     * The union of $$A$$ and $$B$$: $$A \cup B$$.
     * The intersection of $$A$$ and $$B$$: $$A \cap B$$.
 
-1. To be continued...
+1. Let $$U = \mathbb{Z}$$, A = $$\{x : 0 \leq x \leq 100 \text{ and } x \in \mathbb{Z}\}$$, $$B = \{x : x \text { is divisible by } 2\}$$, and $$B = \{x : x \text { is not divisible by } 2\}$$. 
