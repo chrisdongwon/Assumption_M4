@@ -137,10 +137,10 @@ For those who are interested as to why the division algorithm is a valid asserti
   Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are the cases to consider:
 
   1. If $$a \geq 0$$, then it must be the case that $$a = a - b(0) \geq 0$$ regardless of whether $$b$$ is negative or positive, hence $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = 0$$ and it follows that $$S$$ is not empty. 
-  1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and $$-a > 0$$ and it follows that $$b(-a) \geq -a$$ by multiplying by $$-a$$ to both sides of the inequality.
+  1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and $$-a > 0$$, and consequently $$b(-a) \geq -a$$ by multiplying by $$-a$$ to both sides of the inequality. Adding $$a$$ to both sides of the inequality yields $$a - b(a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = a$$ and it follows that $$S$$ is not empty. 
 
 
-  
+
   1. Suppose that $$a < 0$$ and $$b < 0$$. 
 
 
