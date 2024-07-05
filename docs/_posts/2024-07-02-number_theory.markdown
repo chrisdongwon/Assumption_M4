@@ -108,3 +108,14 @@ Let $$a, b \in \mathbb{N}$$. By trial and error and perhaps with good intuition,
 
 For example, could you figure out the greatest common divisor between $$7587346732894923$$ and $$23243423329932023$$ within a reasonable period of time? If you were to list all the divisors of both numbers and find the common divisors, it might take a while. As a matter of fact, according to Wolfram Alpha, the divisors of $$7587346732894923$$ are $$\{1, 3, 19, 57, 128857, 386571, 2448283, 7344849, 1033016027, 3099048081, 19627304513,$$
 $$58881913539, 133111346191139, 399334038573417, 2529115577631641, 7587346732894923\}$$ and the divisors of $$23243423329932023$$ are $$\{1, 887, 26204535884929, 23243423329932023\}$$. Frustratingly enough, as it turns out, the common divisors of those two numbers is only $$\{1\}$$, hence the greatest common divisor is just $$1$$. Without computational assistance, it would not be a wise use of time to proceed with such lengthy process for a surprisingly trivial answer. Is there a better way to solve the problem of identifying the greatest common divisor?
+
+To describe the Euclidean Algorithm, there are some necessary prerequisites to mention, starting with the **division algorithm**.
+
+* Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $0 \leq r < |b|$$. Note that $$|b|$$ represents the absolute value of $$b$$. 
+
+There are two important aspects of the division algorithm:
+
+1. For any integers $$a$$ and nonzero $$b$$, we can always identify the quotient and the remainder of the division of $$a$$ by $$b$$.
+1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. 
+
+For a proof of this fact, please refer to the [wikipedia page](https://en.wikipedia.org/wiki/Euclidean_division#Proof). 
