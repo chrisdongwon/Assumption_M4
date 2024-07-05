@@ -100,14 +100,14 @@ For example, consider the following:
 
 * The divisors of $$24$$ are $$\{1,2,3,4,6,8,12,24\}$$. The divisors of $$60$$ are $$\{1,2,3,4,5,6,10,12,15,20,30,60\}$$. Hence, the common divisors of $$24$$ and $$60$$ are $$\{1,2,3,4,6,12\}$$ and thus it follows that the maximum amongst the common divisors is $$12$$, i.e. $$GCD(24,60) = 12$$.
 
-* The positive multiples of $$7$$ are $$\{7,14,21,28,35,...\}$$ and the positive multiples of $$3$$ are $$\{3,6,9,12,15,18,21,24,...\}$$. Hence, the common multiples of $$7$$ and $$3$$ are $$\{21,42,63,...\}$$, thus it follows that the minimum of the common multiples is $$21$$, i.e. $$LCM(7,3) = 21$$. 
+* The positive multiples of $$7$$ are $$\{7,14,21,28,35,42,...\}$$ and the positive multiples of $$3$$ are $$\{3,6,9,12,15,18,21,24,...\}$$. Hence, the common multiples of $$7$$ and $$3$$ are $$\{21,42,63,...\}$$, thus it follows that the minimum of the common multiples is $$21$$, i.e. $$LCM(7,3) = 21$$. 
 
 Let $$a, b \in \mathbb{N}$$. By trial and error and perhaps with good intuition, it is not too difficult to find the greatest common divisor of $$a$$ and $$b$$ if both are relatively small numbers. However, the process might be quite challenging if the given numbers are rather large.
 
 For example, could you figure out the greatest common divisor between $$7587346732894923$$ and $$23243423329932023$$ within a reasonable period of time? If you were to list all the divisors of both numbers and find the common divisors, it might take a while. As a matter of fact, according to Wolfram Alpha, the divisors of $$7587346732894923$$ are $$\{1, 3, 19, 57, 128857, 386571,$$
 $$2448283, 7344849, 1033016027, 3099048081, 19627304513, 58881913539, 133111346191139, 399334038573417, 2529115577631641, 7587346732894923\}$$ and the divisors of $$23243423329932023$$ are $$\{1, 887, 26204535884929, 23243423329932023\}$$. Frustratingly enough, as it turns out, the common divisors of those two numbers is only $$\{1\}$$, hence the greatest common divisor is just $$1$$. Without computational assistance, it would not be a wise use of time to proceed with such lengthy process for a surprisingly trivial answer. Is there a better way to solve the problem of identifying the greatest common divisor?
 
-## Division Algorithm and Euclidean Algorithm
+## The Division Algorithm
 
 The goal of this section is to be able to describe, and hopefully, understand the Euclidean Algorithm, there are some necessary prerequisites to mention, starting with the **division algorithm**.
 
@@ -118,3 +118,6 @@ There are two important aspects of the division algorithm:
 1. For any integers $$a$$ and nonzero $$b$$, we can always identify the quotient and the remainder of the division of $$a$$ by $$b$$. This is what we mean by the _existence_. 
 1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. In other words, there will never be a case where you have two different remainders with the same quotient and vice versa.
 
+## Proof of the Division Algorithm (Optional)
+
+blah blah
