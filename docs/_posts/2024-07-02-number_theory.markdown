@@ -110,7 +110,7 @@ $$399334038573417, 2529115577631641, 7587346732894923\}$$ and the divisors of $$
 
 ## The Division Algorithm
 
-The goal of this section is to be able to describe, and hopefully, understand the Euclidean Algorithm, there are some necessary prerequisites to mention, starting with the **division algorithm**.
+The goal of this section is to be able to describe, and hopefully, understand the Euclidean Algorithm, and there are some necessary prerequisites to mention starting with the **division algorithm**.
 
 * Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$. Note that $$\lvert b \rvert$$ represents the absolute value of $$b$$. 
 
@@ -121,4 +121,4 @@ There are two important aspects of the division algorithm:
 
 ## Proof of the Division Algorithm (Optional)
 
-blah blah
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic.
