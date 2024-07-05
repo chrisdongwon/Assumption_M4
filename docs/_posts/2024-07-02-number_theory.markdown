@@ -50,7 +50,7 @@ With this notion of divisibility, let us see what kind of integers are divisible
 
 ## Primality
 
-We witnessed how any natural number can be represented by adding $$1$$ __a bunch of times__. In a similar sense, can we represent any negative integer with a repeated addition of $$-1$$. As an example, see that $$-3 = (-1) + (-1) + (-1)$$. So, as the bare minimum, it appears that $$\{-1, 0, 1\}$$ are the _building blocks_ (technically known as the __generators__) for the set of integers in the context of addition. What kind of analogy can we make here in regards to multiplication?  
+We witnessed how any natural number can be represented by adding $$1$$ __a bunch of times__. In a similar sense, can we represent any negative integer with a repeated addition of $$-1$$. As an example, see that $$-3 = (-1) + (-1) + (-1)$$. So, as the bare minimum, it appears that $$\{-1, 0, 1\}$$ are the _building blocks_ (technically known as the _generators_) for the set of integers in the context of addition. What kind of analogy can we make here in regards to multiplication?  
 
 In other words, can we represent __any integer__ by multiplying a bunch of numbers? If so, what are those numbers called? This brings us to the notion of [the Fundamental Theorem of Arithmetic](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that:  
 
@@ -123,11 +123,11 @@ For example, suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algo
 
 ## Optional: Proof of the Division Algorithm
 
-For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N} with A \not = \{\}$$, $$A$$ will always have a minimum element. 
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, $$A$$ will always have a minimum element. 
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
   Proof: Without loss of generality, suppose that $$\lvert a \rvert \geq \lvert b \rvert$$ (meaning, if not, then change the roles of $$a$$ and $$b$$). Here are three cases to consider:
-    1. Both $$a$$ and $$b$$ are positive
-    1. Both $$a$$ and $$b$$ are negative
+    1. Both $$a$$ and $$b$$ are positive.
+    1. Both $$a$$ and $$b$$ are negative.
     1. One of $$a$$ and $$b$$ is positive and the other is negative.
