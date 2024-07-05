@@ -28,7 +28,7 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
 
 1. What is the difference between a **Venn diagram** and an **Euler diagram**? Compare and contrast.
 
-1. Write the general formula for the cardinality of a union of two sets, i.e. $$n(A \cup B)$$. Hint: inclusion-exclusion principle.
+1. Write the general formula for the cardinality of a union of two sets, i.e. $$n(A \cup B)$$. What is the formula when $$A$$ and $$B$$ are disjoint? Hint: inclusion-exclusion principle.
 
 1. True or false? $$ab = GCD(a,b) + LCM(a,b)$$. If false, what is the correct statement?
 
