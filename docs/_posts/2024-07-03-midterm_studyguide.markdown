@@ -26,7 +26,7 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
 
 1. What is the definition of **set equality**? What is the definition of **set equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
 
-1. What is the difference between a Venn diagram and an Euler diagram? Compare and contrast.
+1. What is the difference between a **Venn diagram** and an **Euler diagram**? Compare and contrast.
 
 1. Write the general formula for the cardinality of a union of two sets, i.e. $$n(A \cup B)$$. Hint: inclusion-exclusion principle.
 
