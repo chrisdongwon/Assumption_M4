@@ -134,10 +134,12 @@ For those who are interested as to why the division algorithm is a valid asserti
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
-  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are three cases to consider:
-  
-  1. If $$a$$ and $$b$$ are both positive, then either $$a - b(1) \geq 0$$ (for the case that $$a \geq b$$) or $$a - b(-1) \geq 0$$ (for the case that $$a \leq b$$), hence $$a - bq \in S$$ for some integer $$q$$ meaning $$S$$ is not empty. 
-  1. Both $$a$$ and $$b$$ are negative.
-  1. One of $$a$$ and $$b$$ is positive and the other is negative.
-    
-   In any case, $$S$$ will not be an empty set, hence by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
+  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are the cases to consider:
+
+  1. If $$a \geq 0$$, then it must be the case that $$a = a - b(0) \geq 0$$ regardless of whether $$b$$ is negative or positive, hence $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = 0$$ and it follows that $$S$$ is not empty. 
+  1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and it follows that $$b(a) \geq a$$ by multiplying by $$a$$ to both sides of the inequality, and we have that
+
+
+
+
+In any case, $$S$$ will not be an empty set, hence by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
