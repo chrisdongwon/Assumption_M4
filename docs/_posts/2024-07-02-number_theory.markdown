@@ -132,9 +132,9 @@ In any cases, positive or negative will not make a difference in the validity of
 
 For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, then there exists a minimal element for $$A$$. Now we are ready to address the existential argument for the statement of the division algorithm.
 
-* Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
+* Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
-  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are the cases to consider:
+  Proof: For the existence of the quotient and the remainder, consider the following set $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are the cases to consider:
 
   1. If $$a \geq 0$$, then it must be the case that $$a = a - b(0) \geq 0$$ regardless of whether $$b$$ is negative or positive, hence $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = 0$$ and it follows that $$S$$ is not empty. 
   1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and $$-a > 0$$, and consequently $$b(-a) \geq -a$$ by multiplying by $$-a$$ to both sides of the inequality. Adding $$a$$ to both sides of the inequality yields $$a - b(a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = a$$ and it follows that $$S$$ is not empty. 
@@ -142,15 +142,11 @@ For those who are interested as to why the division algorithm is a valid asserti
 
   In any case, $$S$$ will not be an empty set as it will always contain a natural number, and by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{Z}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. 
 
-  Now, we need to establish that $$0 \leq r < \lvert b \rvert$$. First of all, $$r \in S \subseteq \mathbb{N}$$, thus $$r \geq 0$$ as a subset of the natural numbers will only contain the nonnegative integers. Suppose that $$\lvert b \rvert \leq r$$, which is the opposite outcome of what we are trying to establish. With $$r = a - bq$$, it follows that $$\lvert b \rvert \leq a - bq$$, and we get $$0 \leq a - bq - \lvert b \rvert$$ by subtracting $$\lvert b \rvert$$ from both sides of the equation. If $$b \geq 0$$, then $$\lvert b \rvert = b$$, thus we have $$0 \leq a - bq - b = a - b(q+1)$$. Notice that $$a - b(q+1) < a - bq$$ and $$a - b(q+1), a-bq \in S$$, meaning $$a - b(q+1)$$ should then be the minimal element of $$S$$ by the well-ordering principle. However, we already established earlier that $$a-bq$$ was the minimal element of $$S$$. You cannot have _two_ minimums in a set whose values are different, so this argument was contradictory to begin with, and it must have been the case that $$r < \lvert b \rvert$$, which is what we are trying to achieve. Now, if $$b < 0$$, then $$\lvert b \rvert = -b$$, and we will see in a similar sense that $$0 \leq a - bq + b = a - b(q - 1)$$. 
-  
-  
-  
-  
-  
-In either case, it must have been the case that $$r \leq \lvert b \rvert$$ thus the assertion for the existence is valid. $$\blacksquare$$
+  We now need to establish that $$0 \leq r < \lvert b \rvert$$. First of all, $$r \in S \subseteq \mathbb{N}$$, thus $$r \geq 0$$ as a subset of the natural numbers will only contain the nonnegative integers. Suppose that $$\lvert b \rvert \leq r$$, which is the opposite outcome of what we are trying to establish. With $$r = a - bq$$, it follows that $$\lvert b \rvert \leq a - bq$$, and we get $$0 \leq a - bq - \lvert b \rvert$$ by subtracting $$\lvert b \rvert$$ from both sides of the equation. If $$b \geq 0$$, then $$\lvert b \rvert = b$$, thus we have $$0 \leq a - bq - b = a - b(q+1)$$. Notice that $$a - b(q+1) < a - bq$$ and $$a - b(q+1), a-bq \in S$$, meaning $$a - b(q+1)$$ should then be the minimal element of $$S$$ by the well-ordering principle. However, we already established earlier that $$a-bq$$ was the minimal element of $$S$$. You cannot have _two_ minimums in a set whose values are different, so this argument was contradictory to begin with, and it must have been the case that $$r < \lvert b \rvert$$, which is what we are trying to achieve. Now, if $$b < 0$$, then $$\lvert b \rvert = -b$$, and we will see in a similar sense that $$0 \leq a - bq + b < a - bq$$ with negative $$b$$. Hence, it also appears to be the case that $$a - bq + b = a - b(q - 1)$$ should then be the minimal element of $$S$$, and this is once again a contradiction to the assertion that $$a - bq$$ was the smallest element of $$S$$ to begin with. In either case, it must have been the case that $$r \leq \lvert b \rvert$$ thus the assertion for the existence is valid.
 
-Claim: uniqueness (to be continued)
+  For the uniqueness of the quotient and the remainder, let us suppose that there are two pairs of quotients and remainders, namely $$a = bq_1 + r_1$$ and $$a = bq_2 + r_2$$. We are done with the proof of the claim that the quotients and the remainders are unique if $$q_1 = q_2$$ and $$r_1 = r_2$$, meaning the two pairs are identical to begin with. (To be continued)
+
+One thing to notice is that division appears to be rather trivial task, but _why_ such quotient and remainder should exist warrants a rather abstract and difficult argument, and this is what **mathematics is really about**: logically validating the properties of numbers and the correlating statements.
 
 ## Euclidean Algorithm
 
