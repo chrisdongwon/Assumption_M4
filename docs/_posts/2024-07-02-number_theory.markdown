@@ -76,7 +76,7 @@ Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say 
 
 As you may have noticed, it appears that the notion of divisibility and multiples are closely related. One difference is that $$0$$ does not divide any integer and $$0$$ is a multiple of all integers. Same-same but different.
 
-Notice in the last prime factorization example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__ that is not necessarily a prime. This brings us to the notion of **factors**, which binds nicely with the notion of divisibility (see above). Let $$a,b \in \mathbb{Z}$$, e.g. $$a$$ and $$b$$ are integers. We say that $$a$$ is a factor of $$b$$ if $$a$$ divides $$b$$, meaning that there exists an integer $$k$$ such that $$b = ak$$. Do you see how $$a$$ and $$b$$ swapped their places in the definitions for a multiple and a factor? Take a look at the following examples for better intuition:
+Notice in the last prime factorization example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular _factor_ that is not necessarily a prime. This brings us to the notion of **factors**, which binds nicely with the notion of divisibility (see above). Let $$a,b \in \mathbb{Z}$$, e.g. $$a$$ and $$b$$ are integers. We say that $$a$$ is a factor of $$b$$ if $$a$$ divides $$b$$, meaning that there exists an integer $$k$$ such that $$b = ak$$. Do you see how $$a$$ and $$b$$ swapped their places in the definitions for a multiple and a factor? Take a look at the following examples for better intuition:
 
 * $$\{1,2,4,8,16,32\}$$ is the set of (positive) factors for $$32$$.
 
@@ -90,7 +90,7 @@ Notice in the last prime factorization example that we __extracted__ a prime in 
 
 Let $$a, b \in \mathbb{N}$$, meaning $$a$$ and $$b$$ are natural numbers (if you don't remember what natural numbers are, scroll to the top!).
 
-Recall that $$a$$ is a divisor (also called a factor) of $$b$$ if there exists an integer $$k$$ such that $$b = ak$$, and $$a$$ is a multiple of $$b$$ if there exists an integer $$m$$ such that $$a = bm$$. Given any two natural numbers $$a$$ and $$b$$, there exists a common divisor, $$1$$ to the least, and a common multiple, namely $$ab$$. The list of common divisors for any two nonzero integers is finite, and the list of common multiples is infinitely long. Hence, we can define two numbers known as the GCD and LCM, Greatest Common Divisor and Least Common Multiple, respectively.
+Recall that $$a$$ is a divisor (also called a factor) of $$b$$ if there exists an integer $$k$$ such that $$b = ak$$, and $$a$$ is a multiple of $$b$$ if there exists an integer $$m$$ such that $$a = bm$$. Given any two natural numbers $$a$$ and $$b$$, there exists a common divisor, namely $$1$$, and a common multiple, namely $$ab$$, as a bare minimum. The list of common divisors for any two nonzero integers is finite, and the list of common multiples is infinitely long. Hence, we can define two numbers known as the GCD and LCM, Greatest Common Divisor and Least Common Multiple, respectively.
 
 * Greatest Common Divisor of $$a$$ and $$b$$: among all of the common divisors of $$a$$ and $$b$$, the greatest common divisor, suggested by its name, is the greatest one of them all.
 
