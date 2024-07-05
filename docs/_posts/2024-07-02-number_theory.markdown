@@ -123,7 +123,7 @@ Examples:
 
 * Suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algorithm, it follows that $$123 = 45(2) + 33$$, where $$2$$ is the quotient and $$33$$ is the remainder. With such remainder between $$0$$ and $$45$$ (including $$0$$ and excluding $$45$$), $$2$$ is the only possible quotient. Similarly, for the quotient value of $$2$$, the only possible remainder is $$33$$.
 * What if $$a = 45$$ and $$b = 123$$? Well, $$45 = 123(0) + 0$$, so this is fine as well.
-* How about $$a = -123$$ and $$b = -45$$? Well, we can still perform the division algorithm and say that $$-123 = (-45)(3) + 12$$. The remainder of 12 is not intuitive at all, but the statement of division algorithm still valid.
+* How about $$a = -123$$ and $$b = -45$$? Well, we can still perform the division algorithm and say that $$-123 = (-45)(3) + 12$$. The remainder of $$12$$ is not intuitive at all, but the statement of division algorithm still valid.
 * Now, let $$a = -123$$ and $$b = 45$$. Then, we have $$-123 = 45(-3) + 12$$, so the result is very similar to the previous example. 
 
 In any cases, positive or negative will not make a difference in the validity of the statement except that the divisor, $$b$$ in our case, must not be $$0$$. 
