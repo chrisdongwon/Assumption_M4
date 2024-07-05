@@ -111,7 +111,7 @@ $$58881913539, 133111346191139, 399334038573417, 2529115577631641, 7587346732894
 
 To describe the Euclidean Algorithm, there are some necessary prerequisites to mention, starting with the **division algorithm**.
 
-* Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$. Note that $$|b|$$ represents the absolute value of $$b$$. 
+* Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$. Note that $$\lvert b \rvert$$ represents the absolute value of $$b$$. 
 
 There are two important aspects of the division algorithm:
 
