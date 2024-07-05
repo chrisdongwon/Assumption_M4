@@ -121,10 +121,13 @@ There are two important aspects of the division algorithm:
 
 For example, suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algorithm, it follows that $$123 = 45(2) + 33$$, where $$2$$ is the quotient and $$33$$ is the remainder. With such remainder between $$0$$ and $$45$$ (including $$0$$ and excluding $$45$$), $$2$$ is the only possible quotient. Similarly, for the quotient value of $$2$$, the only possible remainder is $$33$$. 
 
-## Proof of the Division Algorithm (Optional)
+## Optional: Proof of the Division Algorithm
 
 For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N} with A \not = \{\}$$, $$A$$ will always have a minimum element. 
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
-  Proof: blah blah
+  Proof: Without loss of generality, suppose that $$\lvert a \rvert \geq \lvert b \rvert$$ (meaning, if not, then change the roles of $$a$$ and $$b$$). Here are three cases to consider:
+    1. Both $$a$$ and $$b$$ are positive
+    1. Both $$a$$ and $$b$$ are negative
+    1. One of $$a$$ and $$b$$ is positive and the other is negative.
