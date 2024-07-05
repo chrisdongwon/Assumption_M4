@@ -119,7 +119,14 @@ There are two important aspects of the division algorithm:
 1. For any integers $$a$$ and nonzero $$b$$, we can always identify the quotient and the remainder of the division of $$a$$ by $$b$$. This is what we mean by the _existence_. 
 1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. In other words, there will never be a case where you have two different remainders with the same quotient and vice versa.
 
-For example, suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algorithm, it follows that $$123 = 45(2) + 33$$, where $$2$$ is the quotient and $$33$$ is the remainder. With such remainder between $$0$$ and $$45$$ (including $$0$$ and excluding $$45$$), $$2$$ is the only possible quotient. Similarly, for the quotient value of $$2$$, the only possible remainder is $$33$$. 
+Examples:
+
+* Suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algorithm, it follows that $$123 = 45(2) + 33$$, where $$2$$ is the quotient and $$33$$ is the remainder. With such remainder between $$0$$ and $$45$$ (including $$0$$ and excluding $$45$$), $$2$$ is the only possible quotient. Similarly, for the quotient value of $$2$$, the only possible remainder is $$33$$.
+* What if $$a = 45$$ and $$b = 123$$? Well, $$45 = 123(0) + 0$$, so this is fine as well.
+* How about $$a = -123$$ and $$b = -45$? Well, we can still perform the division algorithm and say that $$-123 = (-45)(3) + 12$$. The remainder of 12 is not intuitive at all, but the statement of division algorithm still valid.
+* Now, let $$a = -123$$ and $$b = 45$$. Then, we have $$-123 = 45(-3) + 12, so the result is very similar to the previous example. 
+
+In any cases, positive or negative will not make a difference in the validity of the statement except that the divisor, $$b$$ in our case, must not be $$0$$. 
 
 ## Optional: Proof of the Division Algorithm
 
@@ -127,10 +134,20 @@ For those who are interested as to why the division algorithm is a valid asserti
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
-  Proof: Without loss of generality, suppose that $$\lvert a \rvert \geq \lvert b \rvert$$ (meaning, if not, then change the roles of $$a$$ and $$b$$). Here are three cases to consider:
-    1. Both $$a$$ and $$b$$ are positive.
-    1. Both $$a$$ and $$b$$ are negative.
-    1. One of $$a$$ and $$b$$ is positive and the other is negative.
-  For now, let us focus on the first case, and then we will relate the other cases back to the first case. Let $$S = \{a - bq: q \in \mathbb{N} \text{ and } bq \leq a\}$$, the positive multiples of $$b$$ subtracted from $$a$$ where the differences are nonnegative. Note that $$ S \subseteq \mathbb{N}$$ because $$bk \leq a$$, so the difference $$a - bq$$ cannot be negative. If $$q = 0$$, then $$a - bq = a - b(0) = a$$, hence $$S$$ will at least contain $$a$$. This means $$S$$ can never be an empty set.  
+  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the positive multiples of $$b$$ subtracted from $$a$$ where the differences are nonnegative. Here are three cases to consider:
+  
+  1. If $$a$$ and $$b$$ are both positive, then $$a $$
+  1. Both $$a$$ and $$b$$ are negative.
+  1. One of $$a$$ and $$b$$ is positive and the other is negative.
+  
+  
+  
+  
+  
+  Note that $$ S \subseteq \mathbb{N}$$ because $$bk \leq a$$, so the difference $$a - bq$$ cannot be negative. If $$q = 0$$, then $$a - bq = a - b(0) = a$$, hence $$S$$ will at least contain $$a$$. This means $$S$$ can never be an empty set.  
+
+    
+
+
   
    Then, by the well-ordering principle stated above, it follows that there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
