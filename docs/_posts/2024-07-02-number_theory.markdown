@@ -131,3 +131,5 @@ For those who are interested as to why the division algorithm is a valid asserti
     1. Both $$a$$ and $$b$$ are positive.
     1. Both $$a$$ and $$b$$ are negative.
     1. One of $$a$$ and $$b$$ is positive and the other is negative.
+  For now, let us focus on the first case, and then we will relate the other cases back to the first case. Let $$S = \{bk: k \in \mathbb{N}\}. $$
+  
