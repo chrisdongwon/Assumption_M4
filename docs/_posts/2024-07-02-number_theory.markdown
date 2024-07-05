@@ -111,11 +111,10 @@ $$58881913539, 133111346191139, 399334038573417, 2529115577631641, 7587346732894
 
 To describe the Euclidean Algorithm, there are some necessary prerequisites to mention, starting with the **division algorithm**.
 
-* Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \abs{b}$$. Note that $$\abs{b}$$ represents the absolute value of $$b$$. 
+* Division Algorithm: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \vert b \vert}$$. Note that $$\vert b \vert$$ represents the absolute value of $$b$$. 
 
 There are two important aspects of the division algorithm:
 
 1. For any integers $$a$$ and nonzero $$b$$, we can always identify the quotient and the remainder of the division of $$a$$ by $$b$$.
 1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. In other words, there will never be a case where you have two different remainders with the same quotient and vice versa.
 
-For a proof of this fact, please refer to the [wikipedia page](https://proofwiki.org/wiki/Division_Theorem). 
