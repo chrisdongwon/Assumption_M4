@@ -136,7 +136,7 @@ For those who are interested as to why the division algorithm is a valid asserti
 
   Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are three cases to consider:
   
-  1. If $$a$$ and $$b$$ are both positive, then either $$a - b(1) \geq 0$$ or $a - b(-1) \geq 0$, hence $$a - bq \in S$$ for some integer $$q$$ meaning $$S$$ is not empty. 
+  1. If $$a$$ and $$b$$ are both positive, then either $$a - b(1) \geq 0$$ or $$a - b(-1) \geq 0$$, hence $$a - bq \in S$$ for some integer $$q$$ meaning $$S$$ is not empty. 
   1. Both $$a$$ and $$b$$ are negative.
   1. One of $$a$$ and $$b$$ is positive and the other is negative.
     
