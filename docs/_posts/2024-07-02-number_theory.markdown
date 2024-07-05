@@ -142,4 +142,4 @@ For those who are interested as to why the division algorithm is a valid asserti
 
   In any case, $$S$$ will not be an empty set as it will always contain a natural number, and by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. 
 
-  Now, we need to establish that $$0 \leq r < \lvert b \rvert b$$. First of all, $$r \in S \subseteq \mathbb{N}$$, thus $$r \geq 0$$ (subset of the natural numbers only contains nonnegative integers). Suppose by contradiction that $$\lvert b \rvert \leq r$$. 
+  Now, we need to establish that $$0 \leq r < \lvert b \rvert$$. First of all, $$r \in S \subseteq \mathbb{N}$$, thus $$r \geq 0$$ (subset of the natural numbers only contains nonnegative integers). Suppose by contradiction that $$\lvert b \rvert \leq r$$. We then have that $$-r \leq b \leq r$$ and with $$r = a - bq$$, we have that $$bq - a \leq b \leq a - bq$$. 
