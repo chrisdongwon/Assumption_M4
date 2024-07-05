@@ -116,6 +116,6 @@ To describe the Euclidean Algorithm, there are some necessary prerequisites to m
 There are two important aspects of the division algorithm:
 
 1. For any integers $$a$$ and nonzero $$b$$, we can always identify the quotient and the remainder of the division of $$a$$ by $$b$$.
-1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. 
+1. The quotients and the remainders are _unique_, meaning when you divide $$a$$ by $$b$$, you will always find a single number for the quotient and a single number for the remainder. In other words, there will never be a case where you have two different remainders with the same quotient and vice versa.
 
 For a proof of this fact, please refer to the [wikipedia page](https://en.wikipedia.org/wiki/Euclidean_division#Proof). 
