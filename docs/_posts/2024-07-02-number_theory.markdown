@@ -102,7 +102,7 @@ For example, consider the following:
 
 * The positive multiples of $$7$$ are $$\{7,14,21,28,35,42,...\}$$ and the positive multiples of $$3$$ are $$\{3,6,9,12,15,18,21,24,...\}$$. Hence, the common multiples of $$7$$ and $$3$$ are $$\{21,42,63,...\}$$, thus it follows that the minimum of the common multiples is $$21$$, i.e. $$LCM(7,3) = 21$$. 
 
-Let $$a, b \in \mathbb{N}$$. By trial and error and perhaps with good intuition, it is not too difficult to find the greatest common divisor of $$a$$ and $$b$$ if both are relatively small numbers. However, the process might be quite challenging if the given numbers are rather large.
+Generally, by trial and error and perhaps with good intuition, it is not too difficult to find the greatest common divisor of $$a$$ and $$b$$ if both are relatively small numbers. However, the process might be quite challenging if the given numbers are rather large.
 
 For example, could you figure out the greatest common divisor between $$7587346732894923$$ and $$23243423329932023$$ within a reasonable period of time? If you were to list all the divisors of both numbers and find the common divisors, it might take a while. As a matter of fact, according to Wolfram Alpha, the divisors of $$7587346732894923$$ are $$\{1, 3, 19, 57, 128857, 386571, 2448283,$$
 $$7344849, 1033016027, 3099048081, 19627304513, 58881913539, 133111346191139,$$
@@ -121,4 +121,8 @@ There are two important aspects of the division algorithm:
 
 ## Proof of the Division Algorithm (Optional)
 
-For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic.
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. 
+
+* Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
+
+  Proof: blah blah
