@@ -138,11 +138,7 @@ For those who are interested as to why the division algorithm is a valid asserti
 
   1. If $$a \geq 0$$, then it must be the case that $$a = a - b(0) \geq 0$$ regardless of whether $$b$$ is negative or positive, hence $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = 0$$ and it follows that $$S$$ is not empty. 
   1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and $$-a > 0$$, and consequently $$b(-a) \geq -a$$ by multiplying by $$-a$$ to both sides of the inequality. Adding $$a$$ to both sides of the inequality yields $$a - b(a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = a$$ and it follows that $$S$$ is not empty. 
-
-
-
-  1. Suppose that $$a < 0$$ and $$b < 0$$. 
-
+  1. Suppose that $$a < 0$$ and $$b < 0$$. Then, $$-b \geq 1$$ and $$-a > 0$$,
 
 
   In any case, $$S$$ will not be an empty set, hence by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
