@@ -130,7 +130,7 @@ In any cases, positive or negative will not make a difference in the validity of
 
 ## Optional: Proof of the Division Algorithm
 
-For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, then there exists a minimal element for $$A$$. 
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, then there exists a minimal element for $$A$$. Now we are ready to address the existential argument for the statement of the division algorithm.
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
@@ -138,7 +138,7 @@ For those who are interested as to why the division algorithm is a valid asserti
 
   1. If $$a \geq 0$$, then it must be the case that $$a = a - b(0) \geq 0$$ regardless of whether $$b$$ is negative or positive, hence $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = 0$$ and it follows that $$S$$ is not empty. 
   1. Suppose that $$a < 0$$ and $$b > 0$$. Then, $$b \geq 1$$ and $$-a > 0$$, and consequently $$b(-a) \geq -a$$ by multiplying by $$-a$$ to both sides of the inequality. Adding $$a$$ to both sides of the inequality yields $$a - b(a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = a$$ and it follows that $$S$$ is not empty. 
-  1. Suppose that $$a < 0$$ and $$b < 0$$. Then, $$-b \geq 1$$ and $$-a > 0$$, thus $$-b(-a) \geq -a$$ by multiplying the inequality $$-b \geq 1$$ by $$-a$$, thus it follows that $$a + b(a) = a - b(-a) \geq 0$$. Adding $$a$$ to both sides of the inequality yields $$a - b(-a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = -a$$ and it follows that $$S$$ is not empty. 
+  1. Suppose that $$a < 0$$ and $$b < 0$$. Then, $$-b \geq 1$$ and $$-a > 0$$, thus $$-b(-a) \geq -a$$ by multiplying the inequality $$-b \geq 1$$ by $$-a$$. Adding $$a$$ to both sides of the inequality yields $$a - b(-a) \geq 0$$, meaning $$a - bq \in S$$ and $$a - bq \in \mathbb{N}$$ for $$q = -a$$ and it follows that $$S$$ is not empty. 
 
   In any case, $$S$$ will not be an empty set as it will always contain a natural number, and by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. 
 
