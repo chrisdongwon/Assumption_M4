@@ -134,20 +134,10 @@ For those who are interested as to why the division algorithm is a valid asserti
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
-  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the positive multiples of $$b$$ subtracted from $$a$$ where the differences are nonnegative. Here are three cases to consider:
+  Proof: Let $$S = \{a - bq: q \in \mathbb{Z}\}$$, the multiples of $$b$$ subtracted from $$a$$ where we look at differences that are not negative. Here are three cases to consider:
   
-  1. If $$a$$ and $$b$$ are both positive, then $$a $$
+  1. If $$a$$ and $$b$$ are both positive, then either $$a - b(1) \geq 0$$ or $a - b(-1) \geq 0$, hence $$a - bq \in S$$ for some integer $$q$$ meaning $$S$$ is not empty. 
   1. Both $$a$$ and $$b$$ are negative.
   1. One of $$a$$ and $$b$$ is positive and the other is negative.
-  
-  
-  
-  
-  
-  Note that $$ S \subseteq \mathbb{N}$$ because $$bk \leq a$$, so the difference $$a - bq$$ cannot be negative. If $$q = 0$$, then $$a - bq = a - b(0) = a$$, hence $$S$$ will at least contain $$a$$. This means $$S$$ can never be an empty set.  
-
     
-
-
-  
-   Then, by the well-ordering principle stated above, it follows that there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
+   In any case, $$S$$ will not be an empty set, hence by the well-ordering principle stated above, there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$. As $$r \in S$$, it follows that there exists $$q \in \mathbb{N}$$ such that $$r = a - bq$$, and adding $$bq$$ to both sides of equation yields $$a = bq + r$$. (Need to show that $$r < b$$). 
