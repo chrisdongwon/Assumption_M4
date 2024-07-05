@@ -123,7 +123,7 @@ For example, suppose that $$a = 123$$ and $$b = 45$$. Then, by the division algo
 
 ## Optional: Proof of the Division Algorithm
 
-For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, $$A$$ will always have a minimum element. 
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, then there exists a minimal element for $$A$$. 
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
@@ -131,5 +131,4 @@ For those who are interested as to why the division algorithm is a valid asserti
     1. Both $$a$$ and $$b$$ are positive.
     1. Both $$a$$ and $$b$$ are negative.
     1. One of $$a$$ and $$b$$ is positive and the other is negative.
-  For now, let us focus on the first case, and then we will relate the other cases back to the first case. Let $$S = \{bk: k \in \mathbb{N}\}. $$
-  
+  For now, let us focus on the first case, and then we will relate the other cases back to the first case. Let $$S = \{a - bk: k \in \mathbb{N} \text{ and } bk \leq a\}, the positive multiples of $$b$$ subtracted from $$a$$ where the differences are nonnegative. Note that $$ S \subseteq \mathbb{N}$$ because $$bk \leq a$$, so the difference cannot be negative. Then, by the well-ordering principle stated above, it follows that there exists a minimal element (i.e. the smallest number of the set) of $$S$$. Let us call this minimal element $$r$$ (which is eventually going to be the same $$r$$ in the statement of the division algorithm). 
