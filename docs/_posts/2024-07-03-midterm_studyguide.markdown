@@ -36,7 +36,7 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
         - Notice that integers from $$0$$ to $$100$$, inclusive, will still include the odd integers within that range. Hence, $$A \cup O = \{x \in U : 0 \leq x \leq 100 \text{ or } x \text{ is not divisible by } 2\} = \{...,-5,-3,-1,0,1,2,3,...,98,99,100,101,103,105,...\}$$.
         - Let's simply exclude the elements from the first problem: $$(A \cap E)^{\prime} = \{...,-3,-2,-1,1,3,5,7,...,97,99,101,102,103,...\}$$.
         - Cardinality refer to the countable number of elements in a set. With $$51$$ even numbers from $$0$$ to $$100$$, it follows that $$n(A \cap E) = 51$$. 
-        - Notice that there are more elements in $$A \cup O$$ than $$A$$. Thus, $$A \cup O$$ is certainly not a subset of $$A$$ and definitely not a _proper_ subset of $$A$$. For sets $$A$$ and $$B$$, we say that $$A$$ is a proper subset of $$B$$ if $$A \subset B$$ and $$A \not = B$$, meaning there exists $$x \in B$$ such that $$x \not in A$$. However, this implies that $$A$$ is a proper subset of $$A \cup O$$. 
+        - Notice that there are more elements in $$A \cup O$$ than $$A$$. Thus, $$A \cup O$$ is certainly not a subset of $$A$$ and definitely not a _proper_ subset of $$A$$. For sets $$A$$ and $$B$$, we say that $$A$$ is a proper subset of $$B$$ if $$A \subset B$$ and $$A \not = B$$, meaning there exists $$x \in B$$ such that $$x \not \in A$$. However, this implies that $$A$$ is a proper subset of $$A \cup O$$. 
 
 1. What is the definition of **set equality**? What is the definition of **set equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
 
