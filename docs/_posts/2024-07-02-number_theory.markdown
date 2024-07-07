@@ -130,7 +130,7 @@ In any cases, positive or negative will not make a difference in the validity of
 
 ## Optional: Proof of the Division Algorithm
 
-For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, then there exists a minimal element for $$A$$. Now we are ready to address the existential argument for the statement of the division algorithm.
+For those who are interested as to why the division algorithm is a valid assertion, I would like to provide you with the proof of the statement for the sake of logic. As indicated above, there are two parts to prove in this assertion: the existence of the quotient and the remainder, and the uniqueness of the quotient and the remainders. This proof will rely on a seemingly trivial mathematical fact known as the **well-ordering principle**: in any nonempty subset of the natural numbers, i.e. $$A \subseteq \mathbb{N}$$ with $$A \not = \{\}$$, there exists a minimal element for $$A$$. Now we are ready to address the existential argument for the statement of the division algorithm.
 
 * Claim: Let $$a,b \in \mathbb{Z}$$ with $$b \not = 0$$. Then, there exists unique $$q,r \in \mathbb{Z}$$ such that $$a = bq + r$$, where $$0 \leq r < \lvert b \rvert$$.
 
@@ -159,3 +159,13 @@ We finally arrive at the notion of the Euclidean Algorithm, which is arguably on
 The Euclidean Algorithm is a procedure in which the repeated application of the above theorem will help us obtain the greatest common divisor of $$a$$ and $$b$$.
 
 * Algorithm: Let $$a, b \in \mathbb{Z}$$ with $$b \not = 0$$, and let $$q_0,r_0 \in \mathbb{Z}$$ with $$a = bq_0 + r_0$$ where $$0 \leq r_0 < \lvert b \vert$$. Then, let $$q_1, r_1 \in \mathbb{Z}$$ such that $$b = r_0q_1 + r_1$$ where $$0 \leq r_1 < r_0$$. Repeat this procedure until $$r_n = 0$$ for some $$n \in \mathbb{N}$$. Notice that the set of remainders $$\{r_0, r_1, ... , r_n\}$$ is a nonempty subset of the natural numbers, hence by the well-ordering principle, $$S$$ contains a minimum, namely $$r_n = 0$$. It follows that $$GCD(a,b) = GCD(b,r_0) = GCD(r_0, r_1) = \cdots = GCD(r_{n-1}, r_{n})$$. With $$r_n = 0$$, it follows that $$GCD(r_{n-1}, 0) = r_{n-1}$$, thus $$GCD(a,b) = r_{n-1}$$. 
+
+For a computational example of the Euclidean Algorithm, refer to the midterm study guide for more details.
+
+## Application of GCD and LCM
+
+Here is one interesting relationship between the greatest common divisor and the least common multiple.
+
+* Theorem: Let $$a, b \in \mathbb{N}$$. Then, $$ab = GCD(a,b) \cdot LCM(a,b)$$. Equivalently, $$LCM(a,b) = \frac{ab}{GCM(a,b)}$$.
+  
+  Proof: Let $$d = GCD(a,b)$$. Since $$d$$ is a divisor of $$a$$ and $$b$$, it follows that there exist $$m, n \in \mathbb{Z}$$ such that $$a = dm$$ and $$b = dn$$. In the prime factorization of $$a$$ and $$b$$, the greatest common divisor of $$a$$ and $$b$$ will contain all of the common primes between $$a$$ and $$b$$. Hence, the prime factorization of $$d$$ will contain all common primes between $$a$$ and $$b$$, thus after dividing $$a$$ and $$b$$ by $$d$$, the remaining quotients will have no primes in common, i.e. the greatest common divisors of $$m$$ and $$n$$ will simply be 1 (when this happens, we say that $$m$$ and $$n$$ are _relatively prime_). Then, it will be the case that $$dmn$$ will be a common multiple of $$a$$ and $$b$$ with $$an = bm$$. Now, we need to demonstrate that $$dmn$$ indeed is the least common multiple. Let $$k \in \mathbb{N}$$ be a common multiple of $$a$$ and $$b$$. Then, there exist $$s \in \mathbb{Z}$$ such that $$k = as$$ and $$k = bt$$. With $$a = dm$$ and $$b = dn$$, it follows that $$k = as = (dm)s$$ and $$k = bt = (dn)t$$, thus $$k = dms = dnt$$. 
