@@ -55,3 +55,5 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
     * Solution: This statement is false: let $$a = 2$$ and $$b = 3$$. Since $$2$$ and $$3$$ are primes, $$GCD(a,b) = 1$$, and $$LCM(a,b) = 6$$. However, $$ab = 6$$ and $$GCD(a,b) + LCM(a,b) = 1 + 6 = 7$$, thus the claimed formula is indeed incorrect. The correct statement here is $$ab = GCD(a,b) \cdot LCM(a,b)$$. 
 
 1. Describe the steps to the Euclidean Algorithm, and find $$GCD(194, 268)$$ using the algorithm. 
+
+    * Solution: We perform the division algorithm on the divisor and the remainder until the remainder becomes $$0$$. The last nonzero remainder is then the greatest common divisor. For example, let's perform the division algorithm on $$194$$ and $$268$$. We see that $$268 = 194(1) + 74$$. Then, $$194 = 74(2) + 46$$. We continue in this fashion and see that $$74 = 46(1) + 28$$ and $$46 = 28(1) + 18$$. Next, we have $$28 = 18(1) + 10$$ and then $$18 = 10(1) + 8$$. Two more iterations of the algorithm are $$10 = 8(1) + 2$$ and then finally $$8 = 2(4) + 0$$. Thus, the last nonzero reminder is $$2$$ and it turns out that $$GCD(194,268) = 2$$ by the Euclidean Algorithm. 
