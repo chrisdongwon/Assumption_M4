@@ -40,7 +40,7 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
 
 1. What is the definition of **set equality**? What is the definition of **set equivalence**? Are equal sets also equivalent? Are equivalent sets also equal? Explain.
 
-    * Solution: We say that the sets $$A$$ and $$B$$ are equal if $$A \subseteq B$$ and $$B \subseteq A$$, i.e. $$A$$ is contained in $$B$$ and $$B$$ is contained in $$A$$. A similar analogy would be: for any numbers $$x$$ and $$y$$, $$x = y$$ if and only if $$x \leq y$$ and $$x \geq y$$. On the other hand, we say that $$A$$ and $$B$$ are equivalent if their cardinalities are the same, i.e. $$n(A) = n(B)$$. More formally, we say that two sets are equivalent if there exists a bijective function from $$A$$ to $$B$$. For more information on this, take a look into the [wikipedia page](https://en.wikipedia.org/wiki/Bijection) on this topic.
+    * Solution: We say that the sets $$A$$ and $$B$$ are equal if $$A \subseteq B$$ and $$B \subseteq A$$, i.e. $$A$$ is contained in $$B$$ and $$B$$ is contained in $$A$$ ($$\subseteq$$ means subset or equals). A similar analogy would be: for any numbers $$x$$ and $$y$$, $$x = y$$ if and only if $$x \leq y$$ and $$x \geq y$$. On the other hand, we say that $$A$$ and $$B$$ are equivalent if their cardinalities are the same, i.e. $$n(A) = n(B)$$. More formally, we say that two sets are equivalent if there exists a bijective function from $$A$$ to $$B$$. For more information on this, take a look into the [wikipedia page](https://en.wikipedia.org/wiki/Bijection) on this topic.
 
 1. What is the difference between a **Venn diagram** and an **Euler diagram**? Compare and contrast.
 
