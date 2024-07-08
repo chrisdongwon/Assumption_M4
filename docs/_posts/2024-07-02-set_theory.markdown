@@ -67,7 +67,7 @@ Things get extremely mind-bending when we start to consider sets with infinitely
 
 This brings us to the formal definition of set equality: we actually say that two sets are equivalent if and only if there exists a **bijective mapping** between those two sets, meaning all elements can be paired in a general manner without skipping any elements in either of the sets. For more information on this including the definition of bijection, I refer you to the [wikipedia page](https://en.wikipedia.org/wiki/Bijection) as this information is slightly out of the scope at this level in mathematics. Funnily enough, one can have [a similar argument](https://www.youtube.com/watch?v=kf2Xwr22oGM) as to why the cardinality of the real numbers between $$0$$ and $$1$$ is the same as the cardinality of all real numbers, which is also very counterintuitive.
 
-## Application: Inclusion-Exclusion Principle
+## Application: The Inclusion-Exclusion Principle
 
 There's a very useful formula known as the _inclusion-exclusion principle_ which allows us to have a consistent way of counting the number of elements in a set union. Let $$A$$ and $$B$$ be sets. By the inclusion-exclusion principle, we can say that $$\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$$. If we want to know the cardinality of three sets, then the known identity is $$\lvert A \cup B \cup C \rvert = \lvert A \rvert + \lvert B \rvert + \lvert C \rvert - \lvert A \cap B \rvert - \lvert B \cap C \rvert - \lvert A \cap C \rvert + \lvert A \cap B \cap C \rvert$$, and of course, if you have the patience for it, we can even go further and have a formula for _any_ finite number of sets. For a proof and an explanation on this, I refer you to this [article](https://people.maths.bris.ac.uk/~mb13434/incl_excl_n.pdf). 
 
@@ -81,4 +81,15 @@ Lastly, if you are interested, I highly recommend that you to watch a video on [
 
 ## Optional: Russell's Paradox
 
+You may have noticed, what is the _naive_ in "naive set theory?" With all the mathematical symbols and logic, it appears that "naive" set theory is not "naive" at all. However, unfortunately, if one were to go very deep down with the mathematical logic of how sets should be comprehended, things could actually get rather complicated. To illustrate this, allow me to introduce you to the notion of **Russell's Paradox**. An easy interpretation of the paradox is described using the riddle: "Who shaves the barber?"
+
+* In an island, there's just one barber, and he is the only person with a shaving blade. Therefore, people who do not shave themselves is shaved by the barber. Who shaves the barber?
+
+Notice the following: Since the barber only shaves those who do not shave themselves, it does not make sense for him to shave himself. However, if he does shave himself, then there must be another barber on the island, and we thought he was the only barber to begin with. So, there's a sense of inconsistency within this phrasing.
+
+A similar riddle is: "I am lying right now." If I am lying, then I just told you the truth that I am lying, so clearly I am not lying. If I am not lying, then I should have said that I am not lying and not the opposite.
+
+As you can see, when there is a notion of self-reference involved, the usage of naive set theory and an elementary version of propositional logic can lead to contradictory statements, and this is just the beginning of what we mean by "naive" set theory: while it is enough to allow us to formalize mathematics, if used in a careless manner, we can arrive at contradictory and inconsistent statements. This bring us to the final point: can we have some "rules" about set theory such that it avoids such contradiction?
+
 ## Optional: Naive Set Theory vs. Axiomatic Set Theory
+
