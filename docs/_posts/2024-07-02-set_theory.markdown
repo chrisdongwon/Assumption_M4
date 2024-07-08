@@ -67,9 +67,13 @@ Things get extremely mind-bending when we start to consider sets with infinitely
 
 ## Application: Inclusion-Exclusion Principle
 
-There's a very useful formula known as the _inclusion-exclusion principle_ which allows us to have a consistent way of counting the number of elements in a set union. Let $$A$$ and $$B$$ be sets. By the inclusion-exclusion principle, we can say that $$\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$$. If we want to know the cardinality of three sets, then the known identity is $$\lvert A \cup B \cup C \rvert = \lvert A \rvert + \lvert B \rvert + \lvert C \rvert - \lvert A \cap B \rvert - \lvert B \cap C \rvert - \lvert A \cap C \rvert + - \lvert A \cap B \cap C \rvert$$, and of course, if you have the patience for it, we can even go further and have a formula for _any_ finite number of sets. For a proof and an explanation on this, I refer you to an [article](https://people.maths.bris.ac.uk/~mb13434/incl_excl_n.pdf). 
+There's a very useful formula known as the _inclusion-exclusion principle_ which allows us to have a consistent way of counting the number of elements in a set union. Let $$A$$ and $$B$$ be sets. By the inclusion-exclusion principle, we can say that $$\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$$. If we want to know the cardinality of three sets, then the known identity is $$\lvert A \cup B \cup C \rvert = \lvert A \rvert + \lvert B \rvert + \lvert C \rvert - \lvert A \cap B \rvert - \lvert B \cap C \rvert - \lvert A \cap C \rvert + \lvert A \cap B \cap C \rvert$$, and of course, if you have the patience for it, we can even go further and have a formula for _any_ finite number of sets. For a proof and an explanation on this, I refer you to an [article](https://people.maths.bris.ac.uk/~mb13434/incl_excl_n.pdf). 
 
-## Countability and Infinity
+## Infinity and Countability
+
+Of course, infinite things are infinite - and we say that a set is infinite if it is _not_ finite, meaning we can list the elements and not be terminated with the process. Also, some sets are infinite in which we can concretely list all elements and some sets are infinite yet we just cannot list all elements. For example, there are infinitely many natural numbers yet we can start with $$0$$ and list them all. What about real numbers though? Between $$0$$ and $$1$$, there's $$0.5$$, and between $$0.5$$ and $$1$$, there's $$0.75$$, and even numbers that we possibly cannot list all the decimal places, such as $$\pi$$. 
+
+I will refer you to watch the [Hilbert Hotel Paradox](https://www.youtube.com/watch?v=Uj3_KqkI9Zo), which demonstrates the mind-boggling nature of the infinity of the countable type.
 
 ## Optional: Russell's Paradox
 
