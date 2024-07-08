@@ -34,22 +34,22 @@ Just like how we can add, subtract, multiply, and divide numbers, we can do anal
 
 What happens when we mix set complement with set union or set intersection? There's a nice rule that allows to kind of think of set intersection and set union as opposite ideas.
 
-    * $$(A \cup B)^{\prime} = A^{\prime} \cap B^{\prime}$$
-    * $$(A \cap B)^{\prime} = A^{\prime} \cup B^{\prime}$$
+* $$(A \cup B)^{\prime} = A^{\prime} \cap B^{\prime}$$
+* $$(A \cap B)^{\prime} = A^{\prime} \cup B^{\prime}$$
 
 So, you may hear me say that the complement of the union is the intersection of complements or that the complement of the union is the intersection of the complements. For a proof of this statement, I will refer you to the [wikipedia page](https://en.wikipedia.org/wiki/De_Morgan%27s_laws#Formal_proof). 
 
 ## Subsets
 Subsets are important aspect of mathematics, as while it is nice to have the universe set $$U$$, we often times talk about more specific elements of $$U$$, namely the subsets of $$U$$. Let $$A$$ be a set.
 
-    * Subset: $$A$$ is a subset of $$U$$, denoted $$A \subseteq U$$ if for all $$x \in A$$, it is the case that $$x \in U$$ as well. So, we have that $$A \subseteq A$$, and by convention, $$\emptyset \subseteq A$$ since nothing is already present in a set of some things, if that makes sense. 
-    * Proper Subset: If $$A \subseteq U$$ but $$A \not = U$$, then we say that $$A$$ is a proper subset of $$U$$. This means there exists $$x \in U$$ such that $$x \not \in A$$, but for all $$x \in A$$, it is the case that $$x \in U$$. For example, the set of even integers is a proper subset of the set of integers $$\mathbb{Z}$$ because the odd integers are not present in the set of even integers. As you can clearly and intuitively see, the set of even integers is certainly not __equal__ to the set of all integers, but believe it or not, they are **equivalent**. Allow me to explain in the following section. 
+* Subset: $$A$$ is a subset of $$U$$, denoted $$A \subseteq U$$ if for all $$x \in A$$, it is the case that $$x \in U$$ as well. So, we have that $$A \subseteq A$$, and by convention, $$\emptyset \subseteq A$$ since nothing is already present in a set of some things, if that makes sense. 
+* Proper Subset: If $$A \subseteq U$$ but $$A \not = U$$, then we say that $$A$$ is a proper subset of $$U$$. This means there exists $$x \in U$$ such that $$x \not \in A$$, but for all $$x \in A$$, it is the case that $$x \in U$$. For example, the set of even integers is a proper subset of the set of integers $$\mathbb{Z}$$ because the odd integers are not present in the set of even integers. As you can clearly and intuitively see, the set of even integers is certainly not __equal__ to the set of all integers, but believe it or not, they are **equivalent**. Allow me to explain in the following section. 
 
 ## Set Equality and Set Equivalence
 
 Let $$A$$ and $$B$$ be sets. If it is possible to take a look at the elements of the sets manually, maybe you can try to see if the two sets are equal by pairing the elements from $$A$$ and $$B$$ whenever they are equal, and if all of the elements in both sets can be paired. This brings us to the formal definition of _set equality_:
 
-    * Set equality: We say that $$A = B$$ if and only if $$A \subseteq B$$ and $$B \subseteq A$$. 
+* Set equality: We say that $$A = B$$ if and only if $$A \subseteq B$$ and $$B \subseteq A$$. 
 
 With this definition, it is clear to see why $$\{1, 2, 3\} = \{3,2,1\}$$ as all elements in $$\{1,2,3\}$$ also appear in $$\{3,2,1\}$$ and vice versa, so they are subsets of one another. This implies that the ordering of the elements do not matter as long as they are still being represented in the set that you claim are equal. By convention, repeating elements in a set _collapse_ to a single representation. For example, we say that $$\{2,2,2\} = \{2\}$$. What if order does matter, and we do need to keep track of repetitive elements? This idea will be explored in the following section. 
 
