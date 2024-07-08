@@ -93,3 +93,4 @@ As you can see, when there is a notion of self-reference involved, the usage of 
 
 ## Optional: Naive Set Theory vs. Axiomatic Set Theory
 
+So, one proposition towards the improvement of naive set theory is called the Axiomatic Set Theory, in which axioms are statements that are true because no one can provide any evidence towards it being false. Since this theory is much, much out of scope for what we are just trying to establish at this level, I will refer you to an introductory [video](https://www.youtube.com/watch?v=zcvsyL7GtH4) to get a sense of such theory. While advanced mathematics is still represented in a way that corresponds to the naive set theory, if one were to be extra careful about what we mean by the notion of sets and the logics involved, then the exploration of such axiomatic construction is inevitable. 
