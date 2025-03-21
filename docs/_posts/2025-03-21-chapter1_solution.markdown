@@ -18,9 +18,16 @@ A number of the form $$\frac{n}{d}$$ where the following conditions **must** be 
 
 3. $$\frac{2}{4}$$ is not simplified - but it *can* be simplified to $$\frac{1}{2}$$. Therefore, $$\frac{1}{2}$$ is not a rational number by the definition. 
 
-4. $$\frac{0}{0} = 1$$ if we simply follow the convention that the same numbers at the top and at the bottom yields $$1$$. In a similar sense, $$\frac{0}{0} = 0$$ if we only look at the numerator and see that it is $$0$$. Therefore, $$\frac{0}{0} = 0$$ and $$\frac{0}{0} = 0$$, but **no number is both 0 and 1**. $$\frac{0}{0}$$ is undefined for this reason. 
+4. $$\frac{0}{0} = 1$$ if we simply follow the convention that the same numbers at the top and at the bottom yields $$1$$. In a similar sense, $$\frac{0}{0} = 0$$ if we only look at the numerator and see that it is $$0$$. Therefore, $$\frac{0}{0} = 1$$ and $$\frac{0}{0} = 0$$, but **no number is both 0 and 1**. $$\frac{0}{0}$$ is undefined for this reason. 
 
-5. sample
+5.
+- If we follow the formula in the text, we get:
+
+$$\frac{2}{3} + \frac{5}{7} = \frac{2 \cdot 7 + 3 \cdot 5}{3 \cdot 7} = \frac{29}{21}$$
+
+- 
+-
+-
 
 ## Section 1.2: The Field Axioms
 
