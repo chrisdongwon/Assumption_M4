@@ -10,10 +10,10 @@ katex: True
 
 1. Definition of **rational numbers**:
 
-A number of the form $$\frac{n}{d}$$ where the following conditions **must** be satisfied:
-- $$n$$ and $$d$$ are integers
-- The denominator is not zero. Symbolically, $$d \not = 0$$
-- $$\frac{n}{d}$$ is simplified. More specifically, we say that $$n$$ and $$d$$ have no factors in common (more on this in Chapter 3). 
+    A number of the form $$\frac{n}{d}$$ where the following conditions **must** be satisfied:
+    - $$n$$ and $$d$$ are integers
+    - The denominator is not zero. Symbolically, $$d \not = 0$$
+    - $$\frac{n}{d}$$ is simplified. More specifically, we say that $$n$$ and $$d$$ have no factors in common (more on this in Chapter 3). 
 
 2. $$2.4$$ is not an integer and $$1.2$$ is not an integer. Therefore, the condition that the numerator and the denominator must be integers is not satisfied, meaning $$\frac{2.4}{1.2}$$ is not a rational number by the definition. 
 
@@ -52,52 +52,52 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
 
 2. Notice that
 
-$$(1+2)^2 = 3^2 = 9$$
+    $$(1+2)^2 = 3^2 = 9$$
 
-and
+    and
 
-$$1^2 + 2^2 = 1 + 4 = 5$$
+    $$1^2 + 2^2 = 1 + 4 = 5$$
 
-Once again, you **DO NOT** distribute the exponent, because you have to apply the addition in the parentheses first before you apply the exponent, not the other way around. 
+    Once again, you **DO NOT** distribute the exponent, because you have to apply the addition in the parentheses first before you apply the exponent, not the other way around. 
 
 3. With $$(a+b)^2 = (a+b)(a+b)$$, it follows that
 
-$$(a+b)(a+b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$$
+    $$(a+b)(a+b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$$
 
 4. By the distributive property, it follows that
 
-$$(a+b)(c+d) = (a+b)c + (a+b)d$$
+    $$(a+b)(c+d) = (a+b)c + (a+b)d$$
 
-By two applications of the distributive property, it follows that
+    By two applications of the distributive property, it follows that
 
-$$(a+b)c + (a+b)d = (ac + bc) + (ad + bd)$$
+    $$(a+b)c + (a+b)d = (ac + bc) + (ad + bd)$$
 
-By the associative property, it follows that
+    By the associative property, it follows that
 
-$$(ac + bc) + (ad + bd) = ac + (bc + ad) + bd$$
+    $$(ac + bc) + (ad + bd) = ac + (bc + ad) + bd$$
 
-Finally, by the commutative property, we have that
+    Finally, by the commutative property, we have that
 
-$$ac + (bc + ad) + bd = ac + (ad + bc) + bd$$
+    $$ac + (bc + ad) + bd = ac + (ad + bc) + bd$$
 
 5. By the distributive property, it follows that
 
-$$x^2 + (b+d)x + bd = x^2 + (bx + dx) + bd$$
+    $$x^2 + (b+d)x + bd = x^2 + (bx + dx) + bd$$
 
-By the associative property, it follows that
+    By the associative property, it follows that
 
-$$x^2 + (bx + dx) + bd = (x^2 + bx) + (dx + bd)$$
+    $$x^2 + (bx + dx) + bd = (x^2 + bx) + (dx + bd)$$
 
-By the commutative property, it follows that
+    By the commutative property, it follows that
 
-$$(x^2 + bx) + (dx + bd) = (x^2 + bx) + (xd + bd)$$
+    $$(x^2 + bx) + (dx + bd) = (x^2 + bx) + (xd + bd)$$
 
-By two applications of the distributive property, it follows that
+    By two applications of the distributive property, it follows that
 
-$$(x^2 + bx) + (xd + bd) = (x + b)x + (x + b)d$$
+    $$(x^2 + bx) + (xd + bd) = (x + b)x + (x + b)d$$
 
-By the distributive property, we finally have that
+    By the distributive property, we finally have that
 
-$$(x + b)x + (x + b)d = (x + b)(x + d)$$
+    $$(x + b)x + (x + b)d = (x + b)(x + d)$$
 
 ## Section 1.3: Linear Equations
