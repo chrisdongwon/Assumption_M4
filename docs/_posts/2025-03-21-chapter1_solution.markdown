@@ -48,9 +48,9 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
 
 ## Section 1.2: The Field Axioms
 
-- Consider the algebraic expression $$ax^2 + bx + c$$. We say that $$x$$ is the variable with exponents $$2$$ for $x^2$$ and $$1$$ for $$x^1 = x$$. The coefficients are $$a$$ and $$b$$, and the constant term is $$c$$.
+1. Consider the algebraic expression $$ax^2 + bx + c$$. We say that $$x$$ is the variable with exponents $$2$$ for $$x^2$$ and $$1$$ for $$x^1 = x$$. The coefficients are $$a$$ and $$b$$, and the constant term is $$c$$.
 
-- Notice that
+2. Notice that
 
 $$(1+2)^2 = 3^2 = 9$$
 
@@ -60,11 +60,11 @@ $$1^2 + 2^2 = 1 + 4 = 5$$.
 
 Once again, you **DO NOT** distribute the exponent, because you have to apply the addition in the parentheses first before you apply the exponent, not the other way around. 
 
-- With $$(a+b)^2 = (a+b)(a+b)$$, it follows that
+3. With $$(a+b)^2 = (a+b)(a+b)$$, it follows that
 
 $$(a+b)(a+b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$$
 
-- By the distributive property, it follows that
+4. By the distributive property, it follows that
 
 $$(a+b)(c+d) = (a+b)c + (a+b)d$$
 
@@ -79,5 +79,25 @@ $$(ac + bc) + (ad + bd) = ac + (bc + ad) + bd$$
 Finally, by the commutative property, we have that
 
 $$ac + (bc + ad) + bd = ac + (ad + bc) + bd$$
+
+5. By the distributive property, it follows that
+
+$$x^2 + (b+d)x + bd = x^2 + (bx + dx) + bd$$
+
+By the associative property, it follows that
+
+$$x^2 + (bx + dx) + bd = (x^2 + bx) + (dx + bd)$$
+
+By the commutative property, it follows that
+
+$$(x^2 + bx) + (dx + bd) = (x^2 + bx) + (xd + bd)$$
+
+By two applications of the distributive property, it follows that
+
+$$(x^2 + bx) + (xd + bd) = (x + b)x + (x + b)d$$
+
+By the distributive property, we finally have that
+
+$$(x + b)x + (x + b)d = (x + b)(x + d)$$
 
 ## Section 1.3: Linear Equations
