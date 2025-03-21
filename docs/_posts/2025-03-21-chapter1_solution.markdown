@@ -56,7 +56,7 @@ $$(1+2)^2 = 3^2 = 9$$
 
 and
 
-$$1^2 + 2^2 = 1 + 4 = 5$$.
+$$1^2 + 2^2 = 1 + 4 = 5$$
 
 Once again, you **DO NOT** distribute the exponent, because you have to apply the addition in the parentheses first before you apply the exponent, not the other way around. 
 
