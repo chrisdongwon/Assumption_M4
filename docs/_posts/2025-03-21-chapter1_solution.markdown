@@ -111,6 +111,7 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
     - Add 9
     - Divide 7
     - Square root
+    
     Therefore, it follows that $$x = \pm \sqrt{\frac{11}{7}}. Notice that there are two solutions: the positive one and the **negative** one.
 
 2. Take a look at page 20 towards the bottom of the page: the process of converting $$ax + by = c$$ to the slope-intercept form ($$y = mx + b$$) is explained there. Notice that $$a = 5, b = 7, c = 11$$ with our given problem. 
