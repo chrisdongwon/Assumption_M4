@@ -112,7 +112,7 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
     - Divide 7
     - Square root
     
-    Therefore, it follows that $$x = \pm \sqrt{\frac{11}{7}}. Notice that there are two solutions: the positive one and the **negative** one.
+    Therefore, it follows that $$x = \pm \sqrt{\frac{11}{7}}$$. Notice that there are two solutions: the positive one and the **negative** one.
 
 2. Take a look at page 20 towards the bottom of the page: the process of converting $$ax + by = c$$ to the slope-intercept form ($$y = mx + b$$) is explained there. Notice that $$a = 5, b = 7, c = 11$$ with our given problem. 
 
@@ -124,4 +124,4 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
     - Slope $$-\frac{3}{4}$$ can be interpreted as: go down by $$3$$ units, and the to right by $$4$$ units. If you start with the point $$(0,2)$$ and go down by $$3$$ units, you end up at $$(0,-1)$$. From $$(0,-1)$$, if you go to the right by $$4$$ units, then you end up at $$(4,-1)$$.
     - Connect $$(0,2)$$ and $$(4,-1)$$ and there you go, that is the graph of the linear equation $$y = -\frac{3}{4}x + 2$$.
 
-5. There's a lot of computation here, and it is important that you try this out on your own. Here is a [video](https://www.youtube.com/watch?v=lzqTD0JWwhY) guide that I would recommend you to watch and follow, if you find the written explanation in the text to be overwhelming. 
+5. There's a lot of computation here, and it is important that you try this out on your own. Here is a [video](https://www.youtube.com/watch?v=lzqTD0JWwhY) guide that I would recommend you to watch and follow, if you find the written explanation in the text to be overwhelming. Refer to section 1.1 if you need more explanation on how to perform operations on fractions. 
