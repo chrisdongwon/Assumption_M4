@@ -106,6 +106,7 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
     - Square $$x$$
     - Multiply 7
     - Subtract 9
+    
     To solve for $$x$$, we consider the inverse operations in the reverse order:
     - Add 9
     - Divide 7
