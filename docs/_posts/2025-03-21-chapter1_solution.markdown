@@ -101,3 +101,25 @@ Once again, notice that the denominators cannot be 0. Since $$c+d, e-f, g-h$$ al
     $$(x + b)x + (x + b)d = (x + b)(x + d)$$
 
 ## Section 1.3: Linear Equations
+
+1. If we follow the order of operations (PEMDAS), it looks like the following operations are being applied to $$x$$ in the provided order:
+    - Square $$x$$
+    - Multiply 7
+    - Subtract 9
+    To solve for $$x$$, we consider the inverse operations in the reverse order:
+    - Add 9
+    - Divide 7
+    - Square root
+    Therefore, it follows that $$x = \pm \sqrt{\frac{11}{7}}. Notice that there are two solutions: the positive one and the **negative** one.
+
+2. Take a look at page 20 towards the bottom of the page: the process of converting $$ax + by = c$$ to the slope-intercept form ($$y = mx + b$$) is explained there. Notice that $$a = 5, b = 7, c = 11$$ with our given problem. 
+
+3. $$y=1$$ is a horizontal line, so two possible points are $$(0,1)$$ and $$(1,1)$$ (of course, as a line is a set of ordered pairs, there are infinitely many choices). In a similar sense, $$x = 2$$ is a vertical line, and two possible points are $$(2,0)$$ and $$(2,1)$$. If you calculate the slope, you should get $$m = 0$$ for a horizontal line and an undefined $$m$$ value for the vertical line with a $$0$$ in the denominator.
+
+4. I recommend that you use graphing calculators such as [desmos](https://www.desmos.com/calculator) to have a precise look at the graph. However, it is still important that you are able to do this without any digital assistance, so consider the following:
+    - $$y = -\frac{3}{4}x + 2$$ is in slope-intercept form. This means the slope of the line is $$-\frac{3}{4}$$ and the y-intercept is $$2$$.
+    - Start by drawing an $$xy$$ grid, and place a point at $$(0,2)$$, which is the y-intercept. Remember that ordered pairs are in the form $$(x,y)$$, meaning that the first number are along the $$x$$ axis and the second number is along the $$y$$ axis.
+    - Slope $$-\frac{3}{4}$$ can be interpreted as: go down by $$3$$ units, and the to right by $$4$$ units. If you start with the point $$(0,2)$$ and go down by $$3$$ units, you end up at $$(0,-1)$$. From $$(0,-1)$$, if you go to the right by $$4$$ units, then you end up at $$(4,-1)$$.
+    - Connect $$(0,2)$$ and $$(4,-1)$$ and there you go, that is the graph of the linear equation $$y = -\frac{3}{4}x + 2$$.
+
+5. There's a lot of computation here, and it is important that you try this out on your own. Here is a [video](https://www.youtube.com/watch?v=lzqTD0JWwhY) guide that I would recommend you to watch and follow, if you find the written explanation in the text to be overwhelming. 
