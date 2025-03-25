@@ -19,6 +19,7 @@ katex: True
 4. Recall that set equality is when both sets have exactly the same elements, and set equivalence is when both sets have the same cardinality (i.e., the number of elements).
     - $$A$$ and $$B$$ are not equal, as you can see that all elements are different, respectively.
     - However, $$A$$ and $$B$$ are equivalent, because they have the same cardinality of 4. 
+    
 5.
     - The set-builder notation for the odd integers is $$\{2x + 1 : x \in \mathbb{Z}\}$$.
     - Notice that this set has **exactly** the same number of elements as $$\mathbb{Z}$$ - we have neither included nor excluded extra elements in the set of odd integers - we simply took each integer, and applied the formula $$2x+1$$.
