@@ -22,6 +22,8 @@ katex: True
 5.
     - The set-builder notation for the odd integers is $$\{2x + 1 : x \in \mathbb{Z}\}$$.
     - Notice that this set has **exactly** the same number of elements as $$\mathbb{Z}$$ - we have neither included nor excluded extra elements in the set of odd integers - we simply took each integer, and applied the formula $$2x+1$$.
+
+
 ## Section 2.2: Propositional Logic
 
 ## Section 2.3: Truth Tables
