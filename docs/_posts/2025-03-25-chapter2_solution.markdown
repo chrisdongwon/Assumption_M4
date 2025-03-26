@@ -31,7 +31,7 @@ katex: True
     - 1, by definition, is not a prime and not a composite number. This is a valid proposition, and as a matter of fact, it is evaluated to be a true statement.
 2. Conjunctions are true if all the propositions are true. Are all the propositions here true?
 3. Disjunctions are true if at least one of the propositions is true. Can you find at least one proposition amongst $$p,q,r$$?
-4. Implications are true if the left side and the right side of the arrow are both true, or if the left side of the arrow is false (vacuous truth). $$r$$ states that $$\sqrt{2}$$ is _not_ an integer, and $$p \wedge \not q$$ states that $$2$$ is even and $$3$$ is _not_ even. What do you conclude?
+4. Implications are true if the left side and the right side of the arrow are both true, or if the left side of the arrow is false (vacuous truth). $$r$$ states that $$\sqrt{2}$$ is _not_ an integer, and $$p \wedge \neg q$$ states that $$2$$ is even and $$3$$ is _not_ even. What do you conclude?
 5.  - Negation: I do **not** eat somtum.
     - Conjunction: I eat somtum **and** my mouth is on fire. 
     - Disjunction: I eat somtum **or** my mouth is on fire.
