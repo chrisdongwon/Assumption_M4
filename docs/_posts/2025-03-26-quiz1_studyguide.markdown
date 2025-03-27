@@ -41,6 +41,7 @@ You are expected to show all work when applicable, and simplify your answers whe
     - Find the slope
     - Pick one of the two given points. Apply the point-slope formula
     - Solve for $$y$$ to obtain the slope-intercept form.
+    
     So, with our points $$(a,b)$$ and $$(c,d)$$, it follows that:
     - Slope: $$m = \frac{d-b}{c-a}$$
     - Point-slope form: Suppose that I choose $$(a,b)$$ as my point. Then, $$y-y_i = m(x-x_i)$$ turns into $$y - b = \frac{d-b}{c-a}(x-a)$$.
