@@ -47,5 +47,5 @@ You are expected to show all work when applicable, and simplify your answers whe
     - Finally, solve for $$y$$ by adding $$b$$ to both sides of the equation. It follows that $$y = \frac{d-b}{c-a}(x-a) + b$$, and the slope-intercept form is
     $$y = \frac{d-b}{c-a}x + (-\frac{d-b}{c-a}a + b)$$. Notice that $$a \not = c$$, otherwise the slope is undefined.
     Make sure you can do this with __actual__ numbers, not just with variables.
-5.  If $$k$$ is a natural number less than equal to 10, then the following list are the possibilities for $$k: $0,1,2,3,4,5,6,7,8,9,10$$.
+5.  If $$k$$ is a natural number less than equal to 10, then the following list are the possibilities for $$k: 0,1,2,3,4,5,6,7,8,9,10$$.
     So, $$3k$$ with the possibilities from above gives us the set $$\{3(0),3(1),3(2),3(3),3(4),3(5),3(6),3(7),3(8),3(9),3(10)\} = \{0,3,6,9,12,15,18,21,24,27,30\}$$.
