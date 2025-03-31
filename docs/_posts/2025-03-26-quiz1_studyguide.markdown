@@ -21,8 +21,8 @@ You are expected to show all work when applicable, and simplify your answers whe
 ## Suggested Solution
 
 1. A rational number is a number of the form $$\frac{n}{d}$$ such that:
-    - $$n, d \in \mathbb{Z}$$
-    - $$d \not = 0$$
+    - The numerator and the denominator are integers. Symbolically, $$n, d \in \mathbb{Z}$$
+    - The denominator is not zero. Symbolically, $$d \not = 0$$
     - $$\frac{n}{d}$$ is simplified
 2. Let us simplify this expression, one part at a time.
     - $$\frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}$$
