@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hybrid Class due to Earthquake Emergency"
+title:  "Google Classroom Information"
 date:   2025-03-31 00:00:00 +0000
 categories: announcement
 katex: True
