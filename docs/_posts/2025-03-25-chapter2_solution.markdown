@@ -39,3 +39,11 @@ katex: True
 
 ## Section 2.3: Truth Tables
 
+1. These are already provided for you in the text. Find and copy them, and **make sure to memorize these.** If you would like another resource, here's a summary of the table provided for you on [Wikipedia](Truth table for most commonly used logical operators). 
+2. Suppose that $$p \implies q$$. $$q \implies p$$ is called a **converse**, and in general, it is __not equivalent__ to the implication $$(p \implies q)$$ - notice that the last column is not the same as $$p \implies q$$. 
+    |$$p$$|$$q$$|$$p \implies q$$|$$q \implies p$$|$$(p \implies q) \implies (q \implies p)$$|
+    |---|---|---|---|---|
+    |T|T|T|T|T|
+    |T|F|F|T|T|
+    |F|T|T|F|F|
+    |F|F|T|T|T|
