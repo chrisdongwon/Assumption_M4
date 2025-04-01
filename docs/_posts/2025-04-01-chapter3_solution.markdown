@@ -6,11 +6,15 @@ categories: lecture notes
 katex: True
 ---
 
-## Section 2.1: Naive Set Theory
+## Section 3.1: Divisibility
+1. With $$12345 = 3(4115)$$ and $$12345 = 5(2469)$$, yes, $$3$$ and $$5$$ both divide $$12345$$ by the definition of divisibility. Make sure you still remember how to do long division.
+2. Let $$a = 4, b=6, c=12$$. We see that $$4 \mid 12$$ and $$6 \mid 12$$, but does $$4 \cdot 6 = 24$$ divide $$12$$? What do you think?
+3. Suppose that $$a \mid b$$ and $$b \mid c$$. By the definition of divisibility, there exist integers $$m$$ and $$n$$ such that $$am = b$$ and $$bn = c$$. Substitute the first equation into the second equation to obtain $$(am)n = c$$, and by the associative property, it follows that $$(am)n = a(mn)$$, therefore $$a(mn) = c$$. Since $$m$$ and $$n$$ are integers, it follows that $$mn$$ is also an integer, so we found some integer where we can multiply $$a$$ to this number to obtain $$c$$. By the definition of divisibility, we conclude that $$a \mid c$$.
+4. $$145 = 7(20) + 5$$. Notice that $$5$$ is the remainder.
+5.  - $$45 = 15(3) + 0$$
+    - With $12345 = 15(823)$, $$15$$ divides $$12345$$ by the definition of divisibility.
+
+## Section 3.2: Prime Factorization
 
 
-## Section 2.2: Propositional Logic
-
-
-## Section 2.3: Truth Tables
-
+## Section 3.3: Common Multiples and Divisors
