@@ -67,14 +67,14 @@ katex: True
 
 5. Consider the following truth tables for the first part.
 
-    |$$p$$|$$q$$|$\neg p$$|$$\neg q$$|$$\neg p \wedge \neg q$$|
+    |$$p$$|$$q$$|$$\neg p$$|$$\neg q$$|$$\neg p \wedge \neg q$$|
     |:---:|:---:|:---:|:---:|:---:|
     |T|T|F|F|F|
     |T|F|F|T|F|
     |F|T|T|F|F|
     |F|F|T|T|T|
 
-    |$$p$$|$$q$$|$p \vee q$$|$$\neg (p \vee q)$$|
+    |$$p$$|$$q$$|$$p \vee q$$|$$\neg (p \vee q)$$|
     |:---:|:---:|:---:|:---:|:---:|
     |T|T|T|F|
     |T|F|T|F|
