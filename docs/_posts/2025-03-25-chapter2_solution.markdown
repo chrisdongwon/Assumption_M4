@@ -50,7 +50,7 @@ katex: True
     |F|F|T|T|T|
 3. In a similar sense, $$\neg p \implies \neg q$$ is called an **inverse**, and it is also __not equivalent__ to $$p \implies q$$. Like the previous problem, compare the last column with the column of $$p \implies q$$.
 
-    |$$p$$|$$q$$|$\neg p$$|$$\neg q$$|$$\neg p \implies \neg q$$|
+    |$$p$$|$$q$$|$$\neg p$$|$$\neg q$$|$$\neg p \implies \neg q$$|
     |:---:|:---:|:---:|:---:|:---:|
     |T|T|F|F|T|
     |T|F|F|T|T|
@@ -58,7 +58,7 @@ katex: True
     |F|F|T|T|T|
 4. $$\neg q \implies \neg p$$ is called a **contrapositive**, and unlike the previous examples, it __is equivalent__ to $$p \implies q$$. Notice how the last column here is exactly the same as the column of $$p \implies q$$.
 
-    |$$p$$|$$q$$|$\neg p$$|$$\neg q$$|$$\neg q \implies \neg p$$|
+    |$$p$$|$$q$$|$$\neg p$$|$$\neg q$$|$$\neg q \implies \neg p$$|
     |:---:|:---:|:---:|:---:|:---:|
     |T|T|F|F|T|
     |T|F|F|T|F|
@@ -66,29 +66,29 @@ katex: True
     |F|F|T|T|T|
 
 5.
-    -Consider the following truth tables for the first part.
+    - Consider the following truth tables for the first part.
 
-    |$$p$$|$$q$$|$\neg p$$|$$\neg q$$|$$\neg p \wedge \neg q$$|
-    |:---:|:---:|:---:|:---:|:---:|
-    |T|T|F|F|F|
-    |T|F|F|T|F|
-    |F|T|T|F|F|
-    |F|F|T|T|T|
+        |$$p$$|$$q$$|$\neg p$$|$$\neg q$$|$$\neg p \wedge \neg q$$|
+        |:---:|:---:|:---:|:---:|:---:|
+        |T|T|F|F|F|
+        |T|F|F|T|F|
+        |F|T|T|F|F|
+        |F|F|T|T|T|
 
-    |$$p$$|$$q$$|$p \vee q$$|$$\neg (p \vee q)$$|
-    |:---:|:---:|:---:|:---:|:---:|
-    |T|T|T|F|
-    |T|F|T|F|
-    |F|T|T|F|
-    |F|F|F|T|
+        |$$p$$|$$q$$|$p \vee q$$|$$\neg (p \vee q)$$|
+        |:---:|:---:|:---:|:---:|:---:|
+        |T|T|T|F|
+        |T|F|T|F|
+        |F|T|T|F|
+        |F|F|F|T|
 
     - Now, consider the following truth tables for the second part.
 
-    |$$\neg p \wedge \neg q \implies \neg (p \vee q)$$|$$\neg (p \vee q) \implies \neg p \wedge \neg q $$|
-    |:---:|:---:|
-    |T|T|
-    |T|T|
-    |T|T|
-    |T|T|
+        |$$\neg p \wedge \neg q \implies \neg (p \vee q)$$|$$\neg (p \vee q) \implies \neg p \wedge \neg q $$|
+        |:---:|:---:|
+        |T|T|
+        |T|T|
+        |T|T|
+        |T|T|
 
     Do you see how all the entries are True? When something is __always__ logically true, then we call such propositions a **tautology**, and this means that $$\neg p \wedge \neg q$$ and $$\neg (p \vee q)$$ are logically equivalent. This result is also known as [De Morgan's Laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws).
