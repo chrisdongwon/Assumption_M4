@@ -16,5 +16,30 @@ katex: True
 
 ## Section 3.2: Prime Factorization
 
+1. $$57$$ is not a prime number, i.e., it is a composite. More specifically, $$57 = 3(19)$$, therefore $$3 \mid 57$$ by the definition of divisibility. Since $$57$$ is greater than $$1$$ and $$1$$ and $$57$$ are not the only integers that divide $$57$$, it follows that $$57$$ is not a prime by the definition of primes.
+2. 
+    $$
+    \begin{array}{c}
+        420 \\
+        \downarrow \ \ \\
+        \begin{array}{cc}
+            2 & 210 \\
+            & \downarrow \ \ \\
+            & \begin{array}{cc}
+                2 & 105 \\
+                & \downarrow \ \ \\
+                & \begin{array}{cc}
+                    3 & 35 \\
+                    & \downarrow \ \ \\
+                    & \begin{array}{cc}
+                        5 & 7 \\
+                    \end{array}
+                \end{array}
+            \end{array}
+        \end{array}
+    \end{array}
+    $$
+3. 
+
 
 ## Section 3.3: Common Multiples and Divisors
