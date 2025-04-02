@@ -17,29 +17,21 @@ katex: True
 ## Section 3.2: Prime Factorization
 
 1. $$57$$ is not a prime number, i.e., it is a composite. More specifically, $$57 = 3(19)$$, therefore $$3 \mid 57$$ by the definition of divisibility. Since $$57$$ is greater than $$1$$ and $$1$$ and $$57$$ are not the only integers that divide $$57$$, it follows that $$57$$ is not a prime by the definition of primes.
-2. 
+2. $$420 = 2^2 \cdot 3 \cdot 5 \cdot 7$$. Refer to the prime factor tree below:
     $$
     \begin{array}{c}
         420 \\
-        \begin{array}{cc}
-            2 & \backslash \\
-            210 & /
-        \end{array} \\
-        \begin{array}{cc}
-            2 & \backslash \\
-            105 & /
-        \end{array} \\
-        \begin{array}{cc}
-            3 & \backslash \\
-            35 & /
-        \end{array} \\
-        \begin{array}{cc}
-            5 & \backslash \\
-            7 & /
-        \end{array}
+        / \quad \ \backslash \\
+        2 \quad \ 210 \\
+        \quad \quad / \quad \backslash \\
+        \quad \quad 2 \quad \ 105 \\
+        \quad \quad \quad \quad / \quad \backslash \\
+        \quad \quad \quad \quad 3 \quad \ 35 \\
+        \quad \quad \quad \quad \quad \quad / \quad \backslash \\
+        \quad \quad \quad \quad \quad \quad 5 \quad \ 7 \\
     \end{array}
     $$
-3. 
+3. $$\{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97\}$$
 
 
 ## Section 3.3: Common Multiples and Divisors
