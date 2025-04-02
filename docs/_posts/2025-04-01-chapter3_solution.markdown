@@ -21,21 +21,21 @@ katex: True
     $$
     \begin{array}{c}
         420 \\
-        \downarrow \ \ \\
         \begin{array}{cc}
-            2 & 210 \\
-            & \downarrow \ \ \\
-            & \begin{array}{cc}
-                2 & 105 \\
-                & \downarrow \ \ \\
-                & \begin{array}{cc}
-                    3 & 35 \\
-                    & \downarrow \ \ \\
-                    & \begin{array}{cc}
-                        5 & 7 \\
-                    \end{array}
-                \end{array}
-            \end{array}
+            2 & \backslash \\
+            210 & /
+        \end{array} \\
+        \begin{array}{cc}
+            2 & \backslash \\
+            105 & /
+        \end{array} \\
+        \begin{array}{cc}
+            3 & \backslash \\
+            35 & /
+        \end{array} \\
+        \begin{array}{cc}
+            5 & \backslash \\
+            7 & /
         \end{array}
     \end{array}
     $$
