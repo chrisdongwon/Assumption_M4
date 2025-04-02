@@ -37,9 +37,9 @@ katex: True
     - Notice that $$2, 3, 5, 7$$ all do __not__ divide $$211$$ (they will all have remainder 1). So, we just found a number that is only divisible by $$1$$ and itself, meaning $$211$$ must be a prime according to our definition. **While this looks like a promising strategy, we are not guaranteed to generate prime numbers in this way! This simply shows a logical contradiction when assuming that there are finitely many prime numbers.** The formalized argument of this strategy is called Euclid's proof of the [infinitude of primes](https://en.wikipedia.org/wiki/Euclid%27s_theorem).
 5.  - Let $$p_i, q_j$$ represent primes, where $$i$$ and $$j$$ represent the $$i^{th}$$ (or $$j^{th}$$) prime number, where repeating primes are allowed. Suppose that $$a$$ has $$m$$ primes in its prime factorization, and $$b$$ has $$n$$ primes in its prime factorization:
 
-    $$a = p_1 p_2 \cdots p_n$$
+    $$a = p_1 p_2 \cdots p_m$$
 
-    $$b = q_1 q_2 \cdots q_m$$
+    $$b = q_1 q_2 \cdots q_n$$
 
     Suppose that $$\sqrt{2} = \frac{a}{b}$$. It follows that:
 
