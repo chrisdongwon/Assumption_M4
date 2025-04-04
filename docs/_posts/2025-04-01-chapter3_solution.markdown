@@ -56,3 +56,31 @@ katex: True
     By the fundamental theorem of arithmetic, prime factorizations are **unique**. This means there is one and only one way to write the prime factorization. It follows that it is not possible for a number to have an even number of prime factors **and** and an odd number of prime factors - it must be one or the other! This is a logical contradiction, and it means that $$\sqrt{2}$$ can never be a rational number.
 
 ## Section 3.3: Common Multiples and Divisors
+
+1.  - Divisors of $$120$$ : $$\{1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120\}$$
+    - Divisors of $$72$$: $$\{1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72\}$$
+    - Common divisors of $$120$$ and $$72$$: $$\{1, 2, 3, 4, 6, 8, 12, 24\}$$
+    - Greatest common divisor of $$120$$ and $$72$$: $$24$$
+2.  - Multiples of $$120$$: $$\{120, 240, 360, 480, 600, \ldots\}$$
+    - Multiples of $$72$$: $$\{72, 144, 216, 288, 360, \ldots\}$$
+    - Common multiples of $$120$$ and $$72$$: $$\{360, 720, 1080, 1440, \ldots\}$$
+    - Least common multiple of $$120$$ and $$72$$: $$360$$
+3.  -   Divisors of $$15$$: $$\{1,3,5,15\}$$
+        Divisors of $$25$$: $$\{1,5,25\}$$
+        Divisors of $$40$$: $$\{1,2,4,5,8,10,20,40\}$$
+        Common divisors of $$15, 25, 40$$: $$\{1,5\}$$
+        Greatest common divisor of $$15, 25, 40$$: $$5$$
+    -   Multiples of $$15$$: $$\{15, 30, 45, 60, 80, \ldots\}$$
+        Multiples of $$25$$: $$\{25, 50, 75, 100, 125, \ldots\}$$
+        Multiples of $$40$$: $$\{40, 80, 120, 160, 200, \ldots\}$$
+        Common multiples of $$15, 25, 40$$: $$\{600,1200,1800,2400,\ldots\}$$
+        Least common multiple of $$15, 25, 40$$: $$600$$
+4.  This question is about finding the __least common multiple__.
+    -   Multiples of $$12$$: $$\{12,24,36,48,60,\ldots\}$$
+    -   Multiples of $$18$$: $$\{18,36,58,72,90,\ldots\}$$
+    -   Least common multiple of $$12$$ and $$18$$: $$36$$
+    So, 36 seconds after 12:00 pm is when the lights will blink together again.
+5.  - $$12 \cdot 34 = 408$$
+    - Greatest common divisor of $$12$$ and $$34$$: $$2$$
+    - Least common multiple of $$12$$ and $$34$$: $$204$$
+    - It turns out that $$2 \cdot 204 = 408$$, so the equality holds.
