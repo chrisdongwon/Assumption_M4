@@ -21,8 +21,8 @@ katex: True
     (Notice that I just replaced $$x$$ with $$2x+5$$ in the original definition)
 
     There are two cases to consider:
-    *   Suppose that $$2x+5 \geq 0$$. Then, $$|2x+5| = 2x+5 = 9$$. Solving for $$x$$ here yields $$x = 2$$.
-    *   Suppose that $$2x+5 < 0$$. Then, $$|2x+5| = -(2x+5) = -2x-5 = 9$$. Solving for $$x$$ here yields $$x = -7$$.
+    *   Suppose that $$2x+5 \geq 0$$. Then, $$\lvert 2x+5 \rvert = 2x+5 = 9$$. Solving for $$x$$ here yields $$x = 2$$.
+    *   Suppose that $$2x+5 < 0$$. Then, $$\lvert 2x+5 \rvert = -(2x+5) = -2x-5 = 9$$. Solving for $$x$$ here yields $$x = -7$$.
     
     Therefore, the solutions are $$x = 2$$ and $$x = -7$$. 
 
@@ -62,7 +62,7 @@ katex: True
 
     Therefore, it appears that the solution here is $$x < 0$$ or $$x > 8$$. Notice the usage of the word __or__ here, because you cannot have a number $$x$$ that is both negative and greater than 8!
 
-5.  
+5.  Suppose that $$x + y \geq 0$$. By the definition of absolute values, it follows that $$|x + y| = x + y$$. It is given as a hint that $$x \leq |x|$$ and $$y \leq |y|$$, so adding the inequalities together yields $$x + y \leq |x| + |y|$$. It follows that $$|x+y| \leq |x| + |y|$$. In a similar sense, suppose that $$x + y < 0$$. By the definition of absolute values, it follows that 
 
 ## 4.2: Radical Expressions
 
