@@ -37,8 +37,8 @@ katex: True
     $$
 
     So, let us consider the two cases again:
-    *   Suppose that $$x^2 - 4 \geq 0$$. Then, $$|x^2 - 4| = x^2 - 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{5}$$.
-    *   Suppose that $$x^2 - 4 < 0$$. Then, $$|x^2 - 4| = -(x^2 - 4) = -x^2 + 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{3}$$.
+    *   Suppose that $$x^2 - 4 \geq 0$$. Then, $$\lvert x^2 - 4 \rvert = x^2 - 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{5}$$.
+    *   Suppose that $$x^2 - 4 < 0$$. Then, $$\lvert x^2 - 4 \rvert = -(x^2 - 4) = -x^2 + 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{3}$$.
     
     Therefore, the solutions are $$x = \pm \sqrt{3}$$ and $$x = \pm \sqrt{5}$$.
 
@@ -57,12 +57,15 @@ katex: True
     Therefore, we have that $$-\frac{7}{3} \leq x$$ and $$x \leq 1$$, meaning $$\frac{7}{3} \leq x \leq 1$$ if we combine the inequalities together.
 
 4.  Once again, by the definition of absolute values, we end up with two cases.
-    *   Suppose that $$4 - x \geq 0$$. Then, $$|4 - x| = 4 - x > 4$$, and the solution here is $$0 > x$$. 
-    *   Suppose that $$4 - x < 0$$. Then, $$|4 - x| = -(4 - x) = -4 + x > 4$$, and it follows that $$x > 8$$.
+    *   Suppose that $$4 - x \geq 0$$. Then, $$\lvert 4 - x \rvert = 4 - x > 4$$, and the solution here is $$0 > x$$. 
+    *   Suppose that $$4 - x < 0$$. Then, $$\lvert 4 - x \rvert = -(4 - x) = -4 + x > 4$$, and it follows that $$x > 8$$.
 
     Therefore, it appears that the solution here is $$x < 0$$ or $$x > 8$$. Notice the usage of the word __or__ here, because you cannot have a number $$x$$ that is both negative and greater than 8!
 
-5.  Suppose that $$x + y \geq 0$$. By the definition of absolute values, it follows that $$|x + y| = x + y$$. It is given as a hint that $$x \leq |x|$$ and $$y \leq |y|$$, so adding the inequalities together yields $$x + y \leq |x| + |y|$$. It follows that $$|x+y| \leq |x| + |y|$$. In a similar sense, suppose that $$x + y < 0$$. By the definition of absolute values, it follows that 
+5.  *   Suppose that $$x + y \geq 0$$. By the definition of absolute values, it follows that $$\lvert x + y \rvert = x + y$$. It is given as a hint that $$x \leq \lvert x \rvert$$ and $$y \leq \lvert y \rvert$$, so adding the inequalities together yields $$x + y \leq \lvert x \rvert + \lvert y \rvert$$. It follows that $$\lvert x+y \rvert \leq \lvert x \rvert + \lvert y \rvert$$.
+    *   In a similar sense, suppose that $$x + y < 0$$. By the definition of absolute values, it follows that $$\lvert x + y \rvert = -(x + y)$$. It is given as a hint that $$-x \leq \lvert x \rvert$$ and $$-y \leq \lvert y \rvert$$, so adding the inequalities together yields $$(-x) + (-y) \leq \lvert x \rvert + \lvert y \rvert$$, where $$(-x) + (-y) = -(x+y)$$ by factoring the negative sign from the expression. It follows that $$\lvert x + y \rvert = -(x+y) \leq \lvert x \rvert + \lvert y \rvert$$.
+
+    In either cases, we have that $$\lvert x + y \rvert \leq \lvert x \rvert + \lvert y \rvert$$, thus the proposition is a true statement. 
 
 ## 4.2: Radical Expressions
 
