@@ -39,8 +39,8 @@ katex: True
 
     So, let us consider the two cases again:
 
-    - Suppose that $$x^2 - 4 \geq 0$$. Then, $$|x^2 - 4| = x^2 - 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{5}$$.
-    - Suppose that $$x^2 - 4 < 0$$. Then, $$|x^2 - 4| = -(x^2 - 4) = -x^2 + 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{3}$$.
+    *   Suppose that $$x^2 - 4 \geq 0$$. Then, $$|x^2 - 4| = x^2 - 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{5}$$.
+    *   Suppose that $$x^2 - 4 < 0$$. Then, $$|x^2 - 4| = -(x^2 - 4) = -x^2 + 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{3}$$.
     
     Therefore, the solutions are $$x = \pm \sqrt{3}$$ and $$x = \pm \sqrt{5}$$.
 
@@ -53,10 +53,16 @@ katex: True
     (You will also end up with this if you apply the same technique from the earlier problems - here, we just have one long inequality instead of the two cases we considered).
     Let us solve the inequalities, one pair at a time.
 
-    - Solving $$-5 \leq 3x + 2$$ yields $$-\frac{7}{3} \leq x$$. 
-    - Solving $$3x + 2 \leq 5$$ yields $$x \leq 1$$. 
+    *   Solving $$-5 \leq 3x + 2$$ yields $$-\frac{7}{3} \leq x$$. 
+    *   Solving $$3x + 2 \leq 5$$ yields $$x \leq 1$$. 
 
     Therefore, we have that $$-\frac{7}{3} \leq x$$ and $$x \leq 1$$, meaning $$\frac{7}{3} \leq x \leq 1$$ if we combine the inequalities together.
+
+4.  Once again, by the definition of absolute values, we end up with two cases.
+    *   Suppose that $$4 - x \geq 0$$. Then, $$4 - x > 4$$, and the solution here is $$0 > x$$. 
+    *   Suppose that $$4 - x < 0$$. It then follows that $$4 < x$$.
+
+    Therefore, it appears that the solution here is $$x < 0$$ and $$x > 4$$.
 
 ## 4.2: Radical Expressions
 
