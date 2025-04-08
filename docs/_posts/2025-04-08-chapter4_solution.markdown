@@ -35,8 +35,9 @@ katex: True
     $$
 
     So, let us consider the two cases again:
-
-
+        - Suppose that $$x^2 - 4 \geq 0$$. Then, $$|x^2 - 4| = x^2 - 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{5}$$.
+        - Suppose that $$x^2 - 4 < 0$$. Then, $$|x^2 - 4| = -(x^2 - 4) = -x^2 + 4 = 1$$. Solving for $$x$$ here yields $$x = \pm \sqrt{3}$$.
+    Therefore, the solutions are $$x = \pm \sqrt{3}$$ and $$x = \pm \sqrt{5}$$. 
 
 ## 4.2: Radical Expressions
 
