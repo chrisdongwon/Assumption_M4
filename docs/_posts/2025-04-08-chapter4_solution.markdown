@@ -44,7 +44,7 @@ katex: True
 
 3.  Here, we can apply the same techniques from the earlier two problems, but let us take another approach here by applying the proposition from the text on page 73. 
     
-    Suppose that $$|3x+2| \leq 5$$. By the proposition, it follows that
+    Suppose that $$\lvert 3x+2 \rvert \leq 5$$. By the proposition, it follows that
 
     $$-5 \leq 3x+2 \leq 5$$
 
