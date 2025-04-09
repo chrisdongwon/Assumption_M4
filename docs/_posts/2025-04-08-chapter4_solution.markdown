@@ -71,7 +71,7 @@ katex: True
 
 1.  Notice that the prime factorization of $$200$$ is $2^3 \cdot 5^2$. It follows that
 
-    $$\sqrt{200} = \sqrt{2 \cdot 2^2 \cdot 5^2} = \sqrt{2} \cdot \sqrt{2^2} \cdot \sqrt{5^2} = \sqrt{2} * 2 * 5 = 10 \sqrt{2}$$
+    $$\sqrt{200} = \sqrt{2 \cdot 2^2 \cdot 5^2} = \sqrt{2} \cdot \sqrt{2^2} \cdot \sqrt{5^2} = \sqrt{2} \cdot 2 \cdot 5 = 10 \sqrt{2}$$
 
 2.  Notice that the prime factorization (with the inclusion of the negative sign where appropriate) of $$-250$$ is $$2 \cdot (-5)^3$$. It follows that
 
