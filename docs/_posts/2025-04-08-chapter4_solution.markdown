@@ -81,8 +81,8 @@ katex: True
 
     $$\sqrt[4]{256} = \sqrt[4]{(2^2)^4} = 2^2 = 4$$
 
-4.  **Remember** that roots are not additive - you have to simply each root terms and then try to see if you can identify a common factor.
-    -   $$\sqrt{50} = \cdots = 5 \sqrt{2}$$ (try to fill in the details)
+4.  **Remember** that roots are not additive - you have to simply each root terms and then try to see if you can identify a common factor. Try to fill in the details.
+    -   $$\sqrt{50} = \cdots = 5 \sqrt{2}$$
     -   $$\sqrt{8} = \cdots = 2 \sqrt{2}$$
     -   Of course, $$\sqrt{2}$$ is already simplified.
 
