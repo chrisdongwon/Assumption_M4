@@ -73,6 +73,25 @@ katex: True
 
     $$\sqrt{200} = \sqrt{2 \cdot 2^2 \cdot 5^2} = \sqrt{2} \cdot \sqrt{2^2} \cdot \sqrt{5^2} = \sqrt{2} * 2 * 5 = 10 \sqrt{2}$$
 
-2.  
+2.  Notice that the prime factorization (with the inclusion of the negative sign where appropriate) of $$-250$$ is $$2 \cdot (-5)^3$$. It follows that
+
+    $$\sqrt[3]{-250} = \sqrt[3]{-2 \cdot (-5)^3} = \sqrt[3]{2} \cdot \sqrt[3]{(-5)^3} = \sqrt[3]{2} \cdot (-5) = -5 \sqrt[3]{2}$$
+
+3.  Notice that the prime factorization of $$256$$ is $$2^8 = (2^2)^4$$. It follows that
+
+    $$\sqrt[4]{256} = \sqrt[4]{(2^2)^4} = 2^2 = 4$$
+
+4.  **Remember** that roots are not additive - you have to simply each root terms and then try to see if you can identify a common factor.
+    -   $$\sqrt{50} = \cdots = 5 \sqrt{2}$$ (try to fill in the details)
+    -   $$\sqrt{8} = \cdots = 2 \sqrt{2}$$
+    -   Of course, $$\sqrt{2}$$ is already simplified.
+
+    Therefore, it follows that $$\sqrt{50} + \sqrt{8} - \sqrt{2} = 5 \sqrt{2} + 2 \sqrt{2} - \sqrt{2} = (5 + 2 - 1) \sqrt{2} = 6 \sqrt{2}$$
+
+5.  Let's look at some factorizations that may help us with the simplification.
+    -   $$54 = 2 \cdot 3^3$$
+    -   $$x^6 = (x^2)^3$$
+    -   $$y^9 = (y^2)^3$$
+    It follows that $$\sqrt[3]{54x^6y^9} = \sqrt[3]{2 \cdot 3^3 \cdot (x^2)^3 \cdot (y^2)^3} = 3x^2y^2 \sqrt[3]{2}
 
 ## 4.3: Quadratic Equations
