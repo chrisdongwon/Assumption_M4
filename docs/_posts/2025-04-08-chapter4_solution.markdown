@@ -92,6 +92,6 @@ katex: True
     -   $$54 = 2 \cdot 3^3$$
     -   $$x^6 = (x^2)^3$$
     -   $$y^9 = (y^2)^3$$
-    It follows that $$\sqrt[3]{54x^6y^9} = \sqrt[3]{2 \cdot 3^3 \cdot (x^2)^3 \cdot (y^2)^3} = 3x^2y^2 \sqrt[3]{2}
+    It follows that $$\sqrt[3]{54x^6y^9} = \sqrt[3]{2 \cdot 3^3 \cdot (x^2)^3 \cdot (y^2)^3} = 3x^2y^2 \sqrt[3]{2}$$
 
 ## 4.3: Quadratic Equations
