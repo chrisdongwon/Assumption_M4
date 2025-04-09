@@ -75,7 +75,7 @@ katex: True
 
 2.  Notice that the prime factorization (with the inclusion of the negative sign where appropriate) of $$-250$$ is $$2 \cdot (-5)^3$$. It follows that
 
-    $$\sqrt[3]{-250} = \sqrt[3]{-2 \cdot (-5)^3} = \sqrt[3]{2} \cdot \sqrt[3]{(-5)^3} = \sqrt[3]{2} \cdot (-5) = -5 \sqrt[3]{2}$$
+    $$\sqrt[3]{-250} = \sqrt[3]{2 \cdot (-5)^3} = \sqrt[3]{2} \cdot \sqrt[3]{(-5)^3} = \sqrt[3]{2} \cdot (-5) = -5 \sqrt[3]{2}$$
 
 3.  Notice that the prime factorization of $$256$$ is $$2^8 = (2^2)^4$$. It follows that
 
