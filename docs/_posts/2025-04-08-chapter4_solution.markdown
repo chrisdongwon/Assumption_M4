@@ -69,7 +69,7 @@ katex: True
 
 ## 4.2: Radical Expressions
 
-1.  Notice that the prime factorization of $$200$$ is $2^3 \cdot 5^2$. It follows that
+1.  Notice that the prime factorization of $$200$$ is $$2^3 \cdot 5^2$$. It follows that
 
     $$\sqrt{200} = \sqrt{2 \cdot 2^2 \cdot 5^2} = \sqrt{2} \cdot \sqrt{2^2} \cdot \sqrt{5^2} = \sqrt{2} \cdot 2 \cdot 5 = 10 \sqrt{2}$$
 
