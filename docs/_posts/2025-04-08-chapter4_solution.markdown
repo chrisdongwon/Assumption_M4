@@ -96,3 +96,24 @@ katex: True
     It follows that $$\sqrt[3]{54x^6y^9} = \sqrt[3]{2 \cdot 3^3 \cdot (x^2)^3 \cdot (y^2)^3} = 3x^2y^2 \sqrt[3]{2}$$
 
 ## 4.3: Quadratic Equations
+
+1.  -   $$4x - 10 = \pm \sqrt{10}$$
+    -   $$4x = 10 \pm \sqrt{10}$$
+    -   $$x = \frac{10 \pm \sqrt{10}}{4}$$
+2.  With $$x^2 - 2x -99  = (x-11)(x+9) = 0$$, it follows that $$x-11 = 0$$ or $$x + 9 = $$. Therefore, $$x = 11$$ or $$x = -9$$ are the solutions to the equation.
+3.  Notice that $$a = -4$$, $$b = 10$$, and $$c = -4$$. It follows that
+
+    $$x = \frac{-10 \pm \sqrt{10^2 - 4(-4)(-4)}}{2(-4)} = \frac{-10 \pm \sqrt{36}}{-8}$$
+
+    With $$\sqrt{36} = 6$$, simplification yields $$x = \frac{-10 + 6}{-8} = \frac{1}{2}$$ and $$x = \frac{-10 - 6}{-8} = 2$$.
+4.  Notice that I can rearrange the expression to yield $$x^2 - 10x = -19$$. Completing the square on the left hand side yields
+
+    $$x^2 - 10x = (x - 5)^2 - 25$$
+
+    So, it follows that $$(x-5)^2 - 25 = -19$$, and solving for $$x$$ by applying inverse operations yields $$x = 5 \pm \sqrt{6}$$.
+
+5.  In my opinion, the simplest solution here is by _factoring_. Notice that $$x^4 - 5x^2 + 4 = (x^2)^2 - 5x^2 + 4$$. Factorization yields
+
+    $$(x^2)^2 - 5x^2 + 4 = (x^2 - 4)(x^2 - 1) = 0$$
+
+    and this means that $$x^2 - 4 = 0$$ or $$x^2 - 1 = 0$$. Solving for $$x$$ in each term implies that $$x = \pm 2$$ or $$x = \pm 1$$. 
