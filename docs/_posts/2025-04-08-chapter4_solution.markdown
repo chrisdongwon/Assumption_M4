@@ -100,7 +100,7 @@ katex: True
 1.  -   $$4x - 10 = \pm \sqrt{10}$$
     -   $$4x = 10 \pm \sqrt{10}$$
     -   $$x = \frac{10 \pm \sqrt{10}}{4}$$
-2.  With $$x^2 - 2x -99  = (x-11)(x+9) = 0$$, it follows that $$x-11 = 0$$ or $$x + 9 = $$. Therefore, $$x = 11$$ or $$x = -9$$ are the solutions to the equation.
+2.  With $$x^2 - 2x -99  = (x-11)(x+9) = 0$$, it follows that $$x-11 = 0$$ or $$x + 9 = 0$$. Therefore, $$x = 11$$ or $$x = -9$$ are the solutions to the equation.
 3.  Notice that $$a = -4$$, $$b = 10$$, and $$c = -4$$. It follows that
 
     $$x = \frac{-10 \pm \sqrt{10^2 - 4(-4)(-4)}}{2(-4)} = \frac{-10 \pm \sqrt{36}}{-8}$$
